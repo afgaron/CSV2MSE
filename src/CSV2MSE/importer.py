@@ -1,5 +1,6 @@
 import configparser
 import os
+import shutil
 
 
 def read_config_file(file: str) -> tuple[dict[str, str], dict[str, str]]:
@@ -29,8 +30,23 @@ def read_config_file(file: str) -> tuple[dict[str, str], dict[str, str]]:
     return metadata, columns
 
 
-def create_set_dir():
-    return
+def create_set_dir(metadata: dict[str, str]) -> None:
+    """
+    Generate an empty set file for MSE 2.0 and add any set details from the metadata
+    dictionary. Defaults to using the m15-altered stylesheet.
+    """
+    if not metadata.get("title"):
+        metadata["title"] = "Untitled"
+
+    os.mkdir(metadata["title"] + ".mse-set")
+
+    with open(metadata["title"] + ".mse-set/set", "w") as f:
+        f.write("mse_version: 2.0.0\n")
+        f.write("game: magic\n")
+        f.write("stylesheet: m15-altered\n")
+        f.write("set_info:\n")
+        for key in metadata:
+            f.write(f"\t{key}: {metadata[key]}\n")
 
 
 def read_csv():
@@ -42,12 +58,33 @@ def process_csv(dict):
     return
 
 
+def zip_set_dir(metadata: dict[str, str]) -> None:
+    """
+    Take the directory containing the set file and zip it so that MSE can open it.
+    """
+    if not metadata.get("title"):
+        metadata["title"] = "Untitled"
+
+    shutil.make_archive(metadata["title"], "zip", metadata["title"] + ".mse-set")
+    shutil.rmtree(metadata["title"] + ".mse-set")
+    os.rename(metadata["title"] + ".zip", metadata["title"] + ".mse-set")
+
+
 if __name__ == "__main__":
-    # read config file
     config_file = "metadata.cfg"
     metadata, columns = read_config_file(config_file)
-    print(metadata)
-    print(columns)
-    # initialize set directory and set file
-    # read csv file
-    # process csv file
+
+    # for testing
+    try:
+        shutil.rmtree(metadata["title"] + ".mse-set")
+    except Exception:
+        pass
+    try:
+        os.remove(metadata["title"] + ".mse-set")
+    except Exception:
+        pass
+
+    create_set_dir(metadata)
+    # read_csv
+    # process_csv
+    zip_set_dir(metadata)
