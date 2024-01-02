@@ -2,6 +2,7 @@ import configparser
 import csv
 import os
 import shutil
+from datetime import datetime as dt
 from tkinter import filedialog as fd
 from typing import Iterable
 
@@ -25,25 +26,30 @@ def read_config_file(file: str) -> tuple[dict[str, str], dict[str, str]]:
     }
 
     columns = {
-        key: config["card"].get(key)
+        key: config["card"].get(key).lower()
         for key in config["card"]
         if config["card"].get(key)
     }
 
+    # These columns must exist for planeswalkers to work
+    columns["stylesheet"] = columns.get("stylesheet", "stylesheet")
+    columns["level_1_text"] = columns.get("level_1_text", "level_1_text")
+
     return metadata, columns
 
 
-def create_set_dir(metadata: dict[str, str]) -> None:
+def create_set_dir(metadata: dict[str, str]) -> str:
     """
     Generate an empty set file for MSE 2.0 and add any set details from the metadata
-    dictionary. Defaults to using the m15-altered stylesheet.
+    dictionary. Defaults to using the m15-altered stylesheet. Returns name of set file.
     """
     if not metadata.get("title"):
         metadata["title"] = "Untitled"
 
-    os.mkdir(metadata["title"] + ".mse-set")
+    set_dir = metadata["title"] + ".mse-set"
+    os.mkdir(set_dir)
 
-    with open(metadata["title"] + ".mse-set/set", "w") as f:
+    with open(set_dir + "/set", "w") as f:
         f.write("mse_version: 2.0.0\n")
         f.write("game: magic\n")
         f.write("stylesheet: m15-altered\n")
@@ -51,11 +57,13 @@ def create_set_dir(metadata: dict[str, str]) -> None:
         for key in metadata:
             f.write(f"\t{key}: {metadata[key]}\n")
 
+    return set_dir
+
 
 def read_csv() -> list[dict[str, str]]:
     """
     Prompt the user to select a CSV file, then import each line as a dictionary
-    mapping the row's value to the column name."
+    mapping the row's value to the column name. Returns list of cards.
     """
     filename = fd.askopenfilename()
 
@@ -68,25 +76,156 @@ def read_csv() -> list[dict[str, str]]:
                 header = row
             # On subsequent loops, read card info
             else:
-                body.append({key: val for key, val in zip(header, row)})
+                body.append(
+                    {key.strip().lower(): val.strip() for key, val in zip(header, row)}
+                )
 
     return body
 
 
-def process_csv(columns: dict[str, str], cards: Iterable[dict[str, str]]) -> None:
-    return
+def process_csv(
+    set_dir: str, column_mapping: dict[str, str], cards: Iterable[dict[str, str]]
+) -> None:
+    """
+    Given a list of cards and a mapping dictionary to translate to MSE attributes,
+    write each card to a file in the set directory.
+    """
+    with open(set_dir + "/set", "a") as set_file:
+        for ix, card in enumerate(cards):
+            name = card.get(column_mapping["name"]) or f"untitled {ix}"
+
+            # Write each card to its own file
+            with open(f"{set_dir}/card {name}", "w") as card_file:
+                card_file.write("mse_version: 2.0.0\n")
+                card_file.write("card:\n")
+
+                # If card_type is provided, combine it with super_type
+                fix_card_type(card, column_mapping)
+
+                # Set stylesheet for planeswalkers and battles
+                fix_stylesheet(card, column_mapping)
+
+                # Planeswalkers have their own rules box
+                fix_planeswalker_rule_text(card, column_mapping)
+
+                for col in column_mapping:
+                    # Some columns with need additional formatting fixes
+                    if "card_type" in col:
+                        continue
+                    elif "rarity" in col:
+                        val = fix_rarity(card.get(column_mapping[col]))
+                    elif "text" in col and card.get(column_mapping[col]):
+                        val = fix_multiline_text(card.get(column_mapping[col]))
+                    elif "stylesheet" in col and not card.get(column_mapping[col]):
+                        continue
+                    else:
+                        val = card.get(column_mapping[col], "")
+                    card_file.write(f"\t{col}: {val}\n")
+
+                # Add time the card was written
+                now = get_now()
+                card_file.write(f"\ttime_created: {now}\n")
+                card_file.write(f"\ttime_modified: {now}\n")
+
+            # Update the set file to include the card
+            # MSE should combine it all into one file automatically
+            set_file.write(f"include_file: card {name}\n")
 
 
-def zip_set_dir(metadata: dict[str, str]) -> None:
+def fix_card_type(card: dict[str, str], column_mapping: dict[str, str]) -> None:
+    """
+    Combine the card type and supertype into one string.
+    """
+    if card.get(column_mapping.get("card_type")):
+        super_type = card.get(column_mapping.get("super_type"), "")
+        card_type = card.get(column_mapping.get("card_type"), "")
+        card[column_mapping.get("super_type")] = f"{super_type} {card_type}".strip()
+
+    if card.get(column_mapping.get("card_type_2")):
+        super_type = card.get(column_mapping.get("super_type_2"), "")
+        card_type = card.get(column_mapping.get("card_type_2"), "")
+        card[column_mapping.get("super_type_2")] = f"{super_type} {card_type}".strip()
+
+
+def fix_stylesheet(card: dict[str, str], column_mapping: dict[str, str]) -> None:
+    """
+    Set alternate stylesheet for planeswalker and battle cards.
+    """
+    # Uses `or` instead of second parameter to `get` to replace empty string as well
+    if "planeswalker" in card.get(column_mapping.get("super_type"), "").lower():
+        card[column_mapping.get("stylesheet")] = (
+            card.get(column_mapping.get("stylesheet")) or "m15-mainframe-planeswalker"
+        )
+
+    if "battle" in card.get(column_mapping.get("super_type"), "").lower():
+        card[column_mapping.get("stylesheet")] = (
+            card.get(column_mapping.get("stylesheet")) or "m15-battle"
+        )
+
+
+def fix_planeswalker_rule_text(
+    card: dict[str, str], column_mapping: dict[str, str]
+) -> None:
+    """
+    Planeswalkers get their own field for rules text instead of `rule_text`.
+    """
+    super_type = card.get(column_mapping.get("super_type"), "").lower()
+    if "planeswalker" in super_type:
+        card["level_1_text"] = card.pop(column_mapping.get("rule_text"), "")
+
+
+def fix_rarity(rarity: str) -> str:
+    """
+    Coerce the provided rarity description into something accepted by MSE if possible.
+    """
+    rarity = rarity.lower()
+    if rarity in [
+        "basic land",
+        "common",
+        "uncommon",
+        "rare",
+        "mythic rare",
+        "special",
+        "masterpiece",
+    ]:
+        return rarity
+    elif "basic" in rarity:
+        return "basic land"
+    elif "mythic" in rarity:
+        return "mythic rare"
+    elif "timeshifted" in rarity or "purple" in rarity:
+        return "special"
+    elif "expedition" in rarity:
+        return "masterpiece"
+    else:
+        return ""
+
+
+def fix_multiline_text(text: str) -> str:
+    """
+    Fix newlines in rule and flavor text so it doesn't break MSE.
+    """
+    mse_text = ""
+    for line in text.split("\n"):
+        mse_text += f"\n\t\t" + line.strip()
+    return mse_text
+
+
+def get_now() -> str:
+    """
+    Get the current time as a formatted string.
+    """
+    return dt.now().strftime("%Y-%m-%d %H:%M:%S")
+
+
+def zip_set_dir(set_dir: str) -> None:
     """
     Take the directory containing the set file and zip it so that MSE can open it.
     """
-    if not metadata.get("title"):
-        metadata["title"] = "Untitled"
-
-    shutil.make_archive(metadata["title"], "zip", metadata["title"] + ".mse-set")
-    shutil.rmtree(metadata["title"] + ".mse-set")
-    os.rename(metadata["title"] + ".zip", metadata["title"] + ".mse-set")
+    set_name = set_dir.split(".mse-set")[0]
+    shutil.make_archive(set_name, "zip", set_dir)
+    shutil.rmtree(set_dir)
+    os.rename(set_name + ".zip", set_dir)
 
 
 if __name__ == "__main__":
@@ -103,7 +242,7 @@ if __name__ == "__main__":
     except Exception:
         pass
 
-    create_set_dir(metadata)
+    set_dir = create_set_dir(metadata)
     card_list = read_csv()
-    process_csv(columns, card_list)
-    zip_set_dir(metadata)
+    process_csv(set_dir, columns, card_list)
+    zip_set_dir(set_dir)
