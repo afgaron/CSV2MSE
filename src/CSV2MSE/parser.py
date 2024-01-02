@@ -1,4 +1,5 @@
 from datetime import datetime as dt
+import html
 
 
 def fix_card_type(card: dict[str, str], column_mapping: dict[str, str]) -> None:
@@ -78,6 +79,25 @@ def fix_multiline_text(text: str) -> str:
     for line in text.split("\n"):
         mse_text += f"\n\t\t" + line.strip()
     return mse_text
+
+
+def fix_symbols(text: str) -> str:
+    """
+    mana symbols and punctuation unicode
+    """
+    # Remove syntax for mana symbols since MSE does that automatically
+    text = text.replace("{w}", "W").replace("{W}", "W")
+    text = text.replace("{u}", "U").replace("{U}", "U")
+    text = text.replace("{b}", "B").replace("{B}", "B")
+    text = text.replace("{r}", "R").replace("{R}", "R")
+    text = text.replace("{g}", "G").replace("{G}", "G")
+    text = text.replace("{c}", "C").replace("{C}", "C")
+    text = text.replace("{t}", "T").replace("{T}", "T")
+
+    # Unescape HTML characters
+    text = html.unescape(text)
+
+    return text
 
 
 def get_current_timestamp() -> str:

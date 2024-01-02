@@ -5,7 +5,7 @@ import shutil
 from tkinter import filedialog as fd
 from typing import Iterable
 
-from . import parser
+import parser
 
 
 def read_config_file(file: str) -> tuple[dict[str, str], dict[str, str]]:
@@ -117,6 +117,9 @@ def process_csv(
                         val = parser.fix_rarity(card.get(column_mapping[col]))
                     elif "text" in col and card.get(column_mapping[col]):
                         val = parser.fix_multiline_text(card.get(column_mapping[col]))
+                        val = parser.fix_symbols(val)
+                    elif "name" in col:
+                        val = parser.fix_symbols(card.get(column_mapping[col]))
                     elif "stylesheet" in col and not card.get(column_mapping[col]):
                         continue
                     else:
@@ -141,23 +144,3 @@ def zip_set_dir(set_dir: str) -> None:
     shutil.make_archive(set_name, "zip", set_dir)
     shutil.rmtree(set_dir)
     os.rename(set_name + ".zip", set_dir)
-
-
-if __name__ == "__main__":
-    config_file = "metadata.cfg"
-    metadata, columns = read_config_file(config_file)
-
-    # for testing
-    try:
-        shutil.rmtree(metadata["title"] + ".mse-set")
-    except Exception:
-        pass
-    try:
-        os.remove(metadata["title"] + ".mse-set")
-    except Exception:
-        pass
-
-    set_dir = create_set_dir(metadata)
-    card_list = read_csv()
-    process_csv(set_dir, columns, card_list)
-    zip_set_dir(set_dir)
