@@ -161,3 +161,5 @@ cython_debug/
 
 # MSE-specific
 *.mse-set
+*.csv
+*.xlsx

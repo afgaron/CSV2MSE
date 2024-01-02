@@ -1,6 +1,9 @@
 import configparser
+import csv
 import os
 import shutil
+from tkinter import filedialog as fd
+from typing import Iterable
 
 
 def read_config_file(file: str) -> tuple[dict[str, str], dict[str, str]]:
@@ -10,7 +13,7 @@ def read_config_file(file: str) -> tuple[dict[str, str], dict[str, str]]:
     the CSV file and the canonical MSE field names.
     """
     if not os.path.exists(file):
-        raise OSError("Can't find metadata.cfg in working directory!")
+        raise FileNotFoundError("Can't find metadata.cfg in working directory")
 
     config = configparser.ConfigParser()
     config.read(file)
@@ -49,12 +52,28 @@ def create_set_dir(metadata: dict[str, str]) -> None:
             f.write(f"\t{key}: {metadata[key]}\n")
 
 
-def read_csv():
-    contents = None
-    return contents
+def read_csv() -> list[dict[str, str]]:
+    """
+    Prompt the user to select a CSV file, then import each line as a dictionary
+    mapping the row's value to the column name."
+    """
+    filename = fd.askopenfilename()
+
+    header, body = [], []
+    with open(filename, "r") as f:
+        reader = csv.reader(f)
+        for row in reader:
+            # On first loop, read the header
+            if not header:
+                header = row
+            # On subsequent loops, read card info
+            else:
+                body.append({key: val for key, val in zip(header, row)})
+
+    return body
 
 
-def process_csv(dict):
+def process_csv(columns: dict[str, str], cards: Iterable[dict[str, str]]) -> None:
     return
 
 
@@ -85,6 +104,6 @@ if __name__ == "__main__":
         pass
 
     create_set_dir(metadata)
-    # read_csv
-    # process_csv
+    card_list = read_csv()
+    process_csv(columns, card_list)
     zip_set_dir(metadata)
