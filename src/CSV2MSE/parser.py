@@ -19,7 +19,7 @@ def fix_card_type(card: dict[str, str], column_mapping: dict[str, str]) -> None:
 
 def fix_stylesheet(card: dict[str, str], column_mapping: dict[str, str]) -> None:
     """
-    Set alternate stylesheet for planeswalker and battle cards.
+    Set alternate stylesheet for planeswalkers, battles, and tokens.
     """
     # Uses `or` instead of second parameter to `get` to replace empty string as well
     if "planeswalker" in card.get(column_mapping.get("super_type"), "").lower():
@@ -30,6 +30,11 @@ def fix_stylesheet(card: dict[str, str], column_mapping: dict[str, str]) -> None
     if "battle" in card.get(column_mapping.get("super_type"), "").lower():
         card[column_mapping.get("stylesheet")] = (
             card.get(column_mapping.get("stylesheet")) or "m15-battle"
+        )
+
+    if "token" in card.get(column_mapping.get("super_type"), "").lower() or "emblem" in card.get(column_mapping.get("super_type"), "").lower():
+        card[column_mapping.get("stylesheet")] = (
+            card.get(column_mapping.get("stylesheet")) or "m15-mainframe-tokens"
         )
 
 
@@ -61,6 +66,8 @@ def fix_rarity(rarity: str) -> str:
         return rarity
     elif "basic" in rarity:
         return "basic land"
+    elif "token" in rarity:
+        return "commmon"
     elif "mythic" in rarity:
         return "mythic rare"
     elif "timeshifted" in rarity or "purple" in rarity:
@@ -83,18 +90,21 @@ def fix_multiline_text(text: str) -> str:
 
 def fix_symbols(text: str) -> str:
     """
-    mana symbols and punctuation unicode
+    Replace encoded mana symbols and HTML characters into plaintext versions.
     """
+    # Ensure string exists, even if its empty
+    text = text or ""
+
     # Remove syntax for mana symbols since MSE does that automatically
-    text = text.replace("{w}", "W").replace("{W}", "W")
-    text = text.replace("{u}", "U").replace("{U}", "U")
-    text = text.replace("{b}", "B").replace("{B}", "B")
-    text = text.replace("{r}", "R").replace("{R}", "R")
-    text = text.replace("{g}", "G").replace("{G}", "G")
-    text = text.replace("{c}", "C").replace("{C}", "C")
-    text = text.replace("{t}", "T").replace("{T}", "T")
+    for letter in ["W", "U", "R", "B", "G", "C", "S", "T"]:
+        text = text.replace(f"{{{letter}}}", letter)
+        text = text.replace(f"{{{letter.lower()}}}", letter)
+    for number in range(10):
+        text = text.replace(f"{{{number}}}", str(number))
 
     # Unescape HTML characters
+    text = text.replace("&quot;&quot;", "&quot;")
+    text = text.replace("--", "&mdash;")
     text = html.unescape(text)
 
     return text
