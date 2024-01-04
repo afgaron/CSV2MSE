@@ -32,10 +32,6 @@ def read_config_file(file: str) -> tuple[dict[str, str], dict[str, str]]:
         if config["card"].get(key)
     }
 
-    # These columns must exist for planeswalkers to work
-    columns["stylesheet"] = columns.get("stylesheet", "stylesheet")
-    columns["level_1_text"] = columns.get("level_1_text", "level_1_text")
-
     return metadata, columns
 
 
@@ -77,6 +73,7 @@ def read_csv() -> list[dict[str, str]]:
                 header = row
             # On subsequent loops, read card info
             else:
+                # add something to skip blank lines
                 body.append(
                     {key.strip().lower(): val.strip() for key, val in zip(header, row)}
                 )
@@ -93,7 +90,12 @@ def process_csv(
     """
     with open(set_dir + "/set", "a") as set_file:
         for ix, card in enumerate(cards):
-            name = card.get(column_mapping["name"]) or f"untitled {ix}"
+            # Check for duplicate card names
+            name = (
+                parser.fix_symbols(card.get(column_mapping["name"])) or f"untitled {ix}"
+            )
+            if os.path.exists(f"{set_dir}/card {name}"):
+                name += f" {ix}"
 
             # Write each card to its own file
             with open(f"{set_dir}/card {name}", "w") as card_file:
@@ -103,7 +105,7 @@ def process_csv(
                 # If card_type is provided, combine it with super_type
                 parser.fix_card_type(card, column_mapping)
 
-                # Set stylesheet for planeswalkers and battles
+                # Set stylesheet for certain card types
                 parser.fix_stylesheet(card, column_mapping)
 
                 # Planeswalkers have their own rules box
@@ -121,6 +123,12 @@ def process_csv(
                     elif "name" in col:
                         val = parser.fix_symbols(card.get(column_mapping[col]))
                     elif "stylesheet" in col and not card.get(column_mapping[col]):
+                        continue
+                    elif (
+                        "power" in col or "toughness" in col or "loyalty" in col
+                    ) and not parser.needs_power_toughness_loyalty(
+                        col, card, column_mapping
+                    ):
                         continue
                     else:
                         val = card.get(column_mapping[col], "")
