@@ -125,7 +125,7 @@ def fix_rarity(rarity: str) -> str:
     elif "basic" in rarity:
         return "basic land"
     elif "token" in rarity:
-        return "commmon"
+        return "common"
     elif "mythic" in rarity:
         return "mythic rare"
     elif "timeshifted" in rarity or "purple" in rarity:
@@ -164,6 +164,25 @@ def fix_symbols(text: str) -> str:
     text = text.replace("&quot;&quot;", "&quot;")
     text = text.replace("&mdash;", "--")
     text = html.unescape(text)
+
+    return text
+
+
+def fix_name_in_text(text: str, card_name: str) -> str:
+    """
+    Add MSE formatting to card name or common aliases for it in text.
+    """
+    full_name = ["CARDNAME", "cardname", "~", card_name]
+    partial_name = ["@", card_name.split(",")[0]]
+
+    full_replacement = f"<atom-cardname>{card_name}</atom-cardname>"
+    partial_replacement = f"<atom-legname>{card_name.split(',')[0]}</atom-legname>"
+
+    if card_name:
+        for name in full_name:
+            text = text.replace(name, full_replacement)
+        for name in partial_name:
+            text = text.replace(name, partial_replacement)
 
     return text
 

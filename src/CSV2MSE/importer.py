@@ -71,9 +71,8 @@ def read_csv() -> list[dict[str, str]]:
             # On first loop, read the header
             if not header:
                 header = row
-            # On subsequent loops, read card info
-            else:
-                # add something to skip blank lines
+            # On subsequent loops, read card info but skip blank lines
+            elif any(len(r) for r in row):
                 body.append(
                     {key.strip().lower(): val.strip() for key, val in zip(header, row)}
                 )
@@ -91,14 +90,14 @@ def process_csv(
     with open(set_dir + "/set", "a") as set_file:
         for ix, card in enumerate(cards):
             # Check for duplicate card names
-            name = (
+            filename = (
                 parser.fix_symbols(card.get(column_mapping["name"])) or f"untitled {ix}"
             )
-            if os.path.exists(f"{set_dir}/card {name}"):
-                name += f" {ix}"
+            if os.path.exists(f"{set_dir}/card {filename}"):
+                filename += f" {ix}"
 
             # Write each card to its own file
-            with open(f"{set_dir}/card {name}", "w") as card_file:
+            with open(f"{set_dir}/card {filename}", "w") as card_file:
                 card_file.write("mse_version: 2.0.0\n")
                 card_file.write("card:\n")
 
@@ -120,6 +119,10 @@ def process_csv(
                     elif "text" in col and card.get(column_mapping[col]):
                         val = parser.fix_multiline_text(card.get(column_mapping[col]))
                         val = parser.fix_symbols(val)
+                        card_name = card.get(
+                            column_mapping[f"name{'_2' if '2' in col else ''}"]
+                        )
+                        val = parser.fix_name_in_text(val, card_name)
                     elif "name" in col:
                         val = parser.fix_symbols(card.get(column_mapping[col]))
                     elif "stylesheet" in col and not card.get(column_mapping[col]):
@@ -141,7 +144,7 @@ def process_csv(
 
             # Update the set file to include the card
             # MSE should combine it all into one file automatically
-            set_file.write(f"include_file: card {name}\n")
+            set_file.write(f"include_file: card {filename}\n")
 
 
 def zip_set_dir(set_dir: str) -> None:
