@@ -5,7 +5,7 @@ import shutil
 from tkinter import filedialog as fd
 from typing import Iterable
 
-import parser
+import card_parser
 
 
 def read_config_file(file: str) -> tuple[dict[str, str], dict[str, str]]:
@@ -85,7 +85,7 @@ def process_csv(
         for ix, card in enumerate(cards):
             # Check for duplicate card names
             filename = (
-                parser.fix_file_name(card.get(column_mapping["name"]))
+                card_parser.fix_file_name(card.get(column_mapping["name"]))
                 or f"untitled {ix}"
             )
             if os.path.exists(f"{set_dir}/card {filename}"):
@@ -97,35 +97,37 @@ def process_csv(
                 card_file.write("card:\n")
 
                 # If card_type is provided, combine it with super_type
-                parser.fix_card_type(card, column_mapping)
+                card_parser.fix_card_type(card, column_mapping)
 
                 # Set stylesheet for certain card types
-                parser.fix_stylesheet(card, column_mapping)
+                card_parser.fix_stylesheet(card, column_mapping)
 
                 # Planeswalkers have their own rules box
-                parser.fix_planeswalker_rule_text(card, column_mapping)
+                card_parser.fix_planeswalker_rule_text(card, column_mapping)
 
                 for col in column_mapping:
                     # Some columns with need additional formatting fixes
                     if "card_type" in col:
                         continue
                     elif "rarity" in col:
-                        val = parser.fix_rarity(card.get(column_mapping[col]))
+                        val = card_parser.fix_rarity(card.get(column_mapping[col]))
                     elif "text" in col and card.get(column_mapping[col]):
-                        val = parser.fix_multiline_text(card.get(column_mapping[col]))
-                        val = parser.fix_symbols(val)
+                        val = card_parser.fix_multiline_text(
+                            card.get(column_mapping[col])
+                        )
+                        val = card_parser.fix_symbols(val)
                         card_name = card.get(
                             column_mapping[f"name{'_2' if '2' in col else ''}"]
                         )
-                        val = parser.fix_name_in_text(val, card_name)
+                        val = card_parser.fix_name_in_text(val, card_name)
                     elif "name" in col:
-                        val = parser.fix_symbols(card.get(column_mapping[col]))
+                        val = card_parser.fix_symbols(card.get(column_mapping[col]))
                         val = val.replace("\n", " ")
                     elif "stylesheet" in col and not card.get(column_mapping[col]):
                         continue
                     elif (
                         "power" in col or "toughness" in col or "loyalty" in col
-                    ) and not parser.needs_power_toughness_loyalty(
+                    ) and not card_parser.needs_power_toughness_loyalty(
                         col, card, column_mapping
                     ):
                         continue
@@ -134,7 +136,7 @@ def process_csv(
                     card_file.write(f"\t{col}: {val}\n")
 
                 # Add time the card was written
-                now = parser.get_current_timestamp()
+                now = card_parser.get_current_timestamp()
                 card_file.write(f"\ttime_created: {now}\n")
                 card_file.write(f"\ttime_modified: {now}\n")
 

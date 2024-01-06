@@ -1,4 +1,4 @@
-from . import _version, importer, main, parser
+from . import _version, card_importer, card_parser, main
 
 __version__ = _version.get_versions()["version"]
-__all__ = ["importer", "parser", "main"]
+__all__ = ["card_importer", "card_parser", "main"]
