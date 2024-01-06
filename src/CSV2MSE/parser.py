@@ -154,17 +154,38 @@ def fix_symbols(text: str) -> str:
     text = text or ""
 
     # Remove syntax for mana symbols since MSE does that automatically
-    for letter in ["W", "U", "R", "B", "G", "C", "S", "T", "X"]:
-        text = text.replace(f"{{{letter}}}", letter)
-        text = text.replace(f"{{{letter.lower()}}}", letter)
+    wubrg = ["W", "U", "R", "B", "G", "C", "H"]
+    for letter in (
+        wubrg
+        + [f"2/{m}" for m in wubrg]
+        + [f"{m}/{n}" for m in wubrg for n in wubrg if m != n]
+        + ["S", "X", "Y", "Z", "E", "T", "Q", "?"]
+    ):
+        text = text.replace(f"{{{letter}}}", f"<sym>{letter}</sym>")
+        text = text.replace(f"{{{letter.lower()}}}", f"<sym>{letter}</sym>")
     for number in range(10):
-        text = text.replace(f"{{{number}}}", str(number))
+        text = text.replace(f"{{{number}}}", f"<sym>{number}</sym>")
 
     # Unescape HTML characters
     text = text.replace("&quot;&quot;", "&quot;")
     text = text.replace("&mdash;", "--")
     text = html.unescape(text)
 
+    return text
+
+
+def fix_file_name(text: str) -> str:
+    """
+    Remove illegal characters from card name to use as file name
+    """
+    # Ensure string exists, even if its empty
+    text = text or ""
+
+    # Remove forbidden characters
+    for char in ["/", "\\", ">", "<", ":", '"', "|", "?", "*", "\n"]:
+        text = text.replace(char, "_")
+
+    text = fix_symbols(text)
     return text
 
 

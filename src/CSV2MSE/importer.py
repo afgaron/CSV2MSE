@@ -18,7 +18,7 @@ def read_config_file(file: str) -> tuple[dict[str, str], dict[str, str]]:
         raise FileNotFoundError("Can't find metadata.cfg in working directory")
 
     config = configparser.ConfigParser()
-    config.read(file)
+    config.read(file, encoding="utf8")
 
     metadata = {
         key: config["set_info"].get(key)
@@ -26,11 +26,9 @@ def read_config_file(file: str) -> tuple[dict[str, str], dict[str, str]]:
         if config["set_info"].get(key)
     }
 
-    columns = {
-        key: config["card"].get(key).lower()
-        for key in config["card"]
-        if config["card"].get(key)
-    }
+    metadata["title"] = metadata.get("title", "untitled")
+
+    columns = {key: config["card"].get(key).lower() or key for key in config["card"]}
 
     return metadata, columns
 
@@ -40,13 +38,10 @@ def create_set_dir(metadata: dict[str, str]) -> str:
     Generate an empty set file for MSE 2.0 and add any set details from the metadata
     dictionary. Defaults to using the m15-altered stylesheet. Returns name of set file.
     """
-    if not metadata.get("title"):
-        metadata["title"] = "Untitled"
-
     set_dir = metadata["title"] + ".mse-set"
     os.mkdir(set_dir)
 
-    with open(set_dir + "/set", "w") as f:
+    with open(set_dir + "/set", "w", encoding="utf8") as f:
         f.write("mse_version: 2.0.0\n")
         f.write("game: magic\n")
         f.write("stylesheet: m15-altered\n")
@@ -65,10 +60,9 @@ def read_csv() -> list[dict[str, str]]:
     filename = fd.askopenfilename()
 
     header, body = [], []
-    with open(filename, "r") as f:
+    with open(filename, "r", encoding="utf8") as f:
         reader = csv.reader(f)
         for row in reader:
-            # On first loop, read the header
             if not header:
                 header = row
             # On subsequent loops, read card info but skip blank lines
@@ -87,17 +81,18 @@ def process_csv(
     Given a list of cards and a mapping dictionary to translate to MSE attributes,
     write each card to a file in the set directory.
     """
-    with open(set_dir + "/set", "a") as set_file:
+    with open(set_dir + "/set", "a", encoding="utf8") as set_file:
         for ix, card in enumerate(cards):
             # Check for duplicate card names
             filename = (
-                parser.fix_symbols(card.get(column_mapping["name"])) or f"untitled {ix}"
+                parser.fix_file_name(card.get(column_mapping["name"]))
+                or f"untitled {ix}"
             )
             if os.path.exists(f"{set_dir}/card {filename}"):
                 filename += f" {ix}"
 
             # Write each card to its own file
-            with open(f"{set_dir}/card {filename}", "w") as card_file:
+            with open(f"{set_dir}/card {filename}", "w", encoding="utf8") as card_file:
                 card_file.write("mse_version: 2.0.0\n")
                 card_file.write("card:\n")
 
@@ -125,6 +120,7 @@ def process_csv(
                         val = parser.fix_name_in_text(val, card_name)
                     elif "name" in col:
                         val = parser.fix_symbols(card.get(column_mapping[col]))
+                        val = val.replace("\n", " ")
                     elif "stylesheet" in col and not card.get(column_mapping[col]):
                         continue
                     elif (
