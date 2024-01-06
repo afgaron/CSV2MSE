@@ -10,4 +10,4 @@ if __name__ == "__main__":
         card_importer.zip_set_dir(set_dir)
     except Exception as e:
         print(e)
-        input("Press any key to exit")
+        input("Press enter key to quit")

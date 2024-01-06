@@ -22,9 +22,6 @@ def fix_stylesheet(card: dict[str, str], column_mapping: dict[str, str]) -> None
     Set alternate stylesheet when easily detectable. Can handle planeswalkers, battles,
     two-faced cards (e.g. DFCs, adventures) and tokens.
     """
-    # Make sure `stylesheet` is defined
-    column_mapping["stylesheet"] = column_mapping.get("stylesheet", "stylesheet")
-
     # Uses `or` instead of second parameter to `get` to replace empty string as well
     if "planeswalker" in card.get(column_mapping.get("super_type"), "").lower():
         card[column_mapping.get("stylesheet")] = (
@@ -56,12 +53,19 @@ def fix_planeswalker_rule_text(
     """
     Planeswalkers get their own field for rules text instead of `rule_text`.
     """
-    # Make sure `level_1_text` is defined
+    # Define `level_1_text`
     column_mapping["level_1_text"] = column_mapping.get("level_1_text", "level_1_text")
+    column_mapping["level_1_text_2"] = column_mapping.get(
+        "level_1_text_2", "level_1_text_2"
+    )
 
     super_type = card.get(column_mapping.get("super_type"), "").lower()
     if "planeswalker" in super_type:
         card["level_1_text"] = card.pop(column_mapping.get("rule_text"), "")
+
+    super_type_2 = card.get(column_mapping.get("super_type_2"), "").lower()
+    if "planeswalker" in super_type_2:
+        card["level_1_text_2"] = card.pop(column_mapping.get("rule_text_2"), "")
 
 
 def needs_power_toughness_loyalty(
@@ -150,10 +154,10 @@ def fix_symbols(text: str) -> str:
     """
     Replace encoded mana symbols and HTML characters into plaintext versions.
     """
-    # Ensure string exists, even if its empty
+    # Ensure string exists, even if it's empty
     text = text or ""
 
-    # Remove syntax for mana symbols since MSE does that automatically
+    # Wrap mana symbols in MSE encoding
     wubrg = ["W", "U", "R", "B", "G", "C", "H"]
     for letter in (
         wubrg
@@ -178,14 +182,13 @@ def fix_file_name(text: str) -> str:
     """
     Remove illegal characters from card name to use as file name
     """
-    # Ensure string exists, even if its empty
+    # Ensure string exists, even if it's empty
     text = text or ""
 
     # Remove forbidden characters
     for char in ["/", "\\", ">", "<", ":", '"', "|", "?", "*", "\n"]:
         text = text.replace(char, "_")
 
-    text = fix_symbols(text)
     return text
 
 
