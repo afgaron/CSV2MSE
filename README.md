@@ -1,7 +1,7 @@
 # CSV2MSE
 
 CSV2MSE is a generic CSV to MSE importer that can convert (most) CSV files
-into `.mse-set` files. Download it here: https://bit.ly/CSV2MSE
+into `.mse-set` files. Download it here: https://bit.ly/CSV2MSE_1_1
 
 ## Usage
 
