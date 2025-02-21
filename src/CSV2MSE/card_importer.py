@@ -39,6 +39,21 @@ def create_set_dir(metadata: dict[str, str]) -> str:
     dictionary. Defaults to using the m15-altered stylesheet. Returns name of set file.
     """
     set_dir = metadata["title"] + ".mse-set"
+
+    # Check to overwrite existing folder
+    if os.path.exists(set_dir):
+        overwrite = ""
+        while overwrite.lower() not in ["y", "n"]:
+            overwrite = input("Overwrite existing folder? Y/N: ")
+        if overwrite.lower() == "y":
+            try:
+                os.remove(set_dir)
+            except:
+                shutil.rmtree(set_dir)
+        else:
+            print("Aborting.")
+            return
+
     os.mkdir(set_dir)
 
     with open(set_dir + "/set", "w", encoding="utf8") as f:
