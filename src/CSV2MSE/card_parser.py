@@ -115,7 +115,10 @@ def fix_rarity(rarity: str) -> str:
     """
     Coerce the provided rarity description into something accepted by MSE if possible.
     """
+    # Ensure rarity exists, even if it's empty
+    rarity = rarity or ""
     rarity = rarity.lower()
+
     if rarity in [
         "basic land",
         "common",
