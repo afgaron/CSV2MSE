@@ -43,9 +43,9 @@ def create_set_dir(metadata: dict[str, str]) -> str:
     # Check to overwrite existing folder
     if os.path.exists(set_dir):
         overwrite = ""
-        while overwrite.lower() not in ["y", "n"]:
-            overwrite = input("Overwrite existing folder? Y/N: ")
-        if overwrite.lower() == "y":
+        while overwrite not in ["y", "n"]:
+            overwrite = input("Overwrite existing folder? Y/N: ").lower()
+        if overwrite == "y":
             try:
                 os.remove(set_dir)
             except:
