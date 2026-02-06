@@ -1,0 +1,554 @@
+name,code,cost,supertype,cardtype,subtype,rarity,rulestext,flavourtext,power,toughness,artist,art_url,image_url,frame,active
+Aerial Scout,CW01,W,,Artifact Creature,Dinosaur,common,"Flying
+Whenever an opponent casts an artifact spell, untap Aerial Scout.","Easily trainable to track Kosmengeve troop movements, since they already like looking for shinies for their nests.",1,1,,,https://www.planesculptors.net/upload/5734/16049/Aerial%20Scout.jpg,White,FALSE
+Aguefield Ox,CW12,3w,,Artifact Creature,Cattle,common,"Clockwork 2 (This creature enters with 2 +1/+1 counters on it. Whenever it becomes tapped, remove one at end of turn.)
+When Aguefield Ox enters or dies, you gain life equal to its toughness.",,0,2,,,https://www.planesculptors.net/upload/5734/16049/Aguefield%20Ox.jpg,White,
+"Akolum, Sheltering Wings",RW05,4w,Legendary,Artifact Creature,Dinosaur,rare,"Clockwork 5 (This creature enters with 5 +1/+1 counters on it. Whenever it becomes tapped, remove one at end of turn.)
+Flying, first strike
+Each permanent you control has ward {X}, where X is the number of counters on that permanent.",,0,0,,,https://www.planesculptors.net/upload/5734/16049/Akolum%20Sheltering%20Wings.jpg,White,
+Aloof Vulpine,CW07,1w,,Artifact Creature,Fox,common,"Clockwork 2 (This creature enters with 2 +1/+1 counters on it. Whenever it becomes tapped, remove one at end of turn.)
+Sacrifice Aloof Vulpine: Destroy target enchantment.",,0,1,,,https://www.planesculptors.net/upload/5734/16049/Aloof%20Vulpine.jpg,White,
+Anima Seraph,MW02,3ww,,Artifact Creature,Angel,mythic,"Flying, vigilance
+At the beginning of your upkeep, reveal the top card of your library. Until your next turn, nonland permanents your opponents control with the same mana value can’t attack or block and their activated abilities can’t be activated.",She flies on wings of life itself.,4,4,,,https://www.planesculptors.net/upload/5734/16049/Anima%20Seraph.jpg,White,FALSE
+Budding Thopter,UW04,2w,,Artifact Creature,Thopter,uncommon,"Flying
+When Budding Thopter dies, create two 1/1 white Thopter artifact creature tokens with flying.",,2,2,,,https://www.planesculptors.net/upload/5734/16049/Budding%20Thopter.jpg,White,
+Build Back Better,RW07,4ww,,Sorcery,,rare,"Put target permanent card with mana value 3 or less from your graveyard to the battlefield. If a creature enters this way, it enters with an additional three +1/+1 counters on it.
+Cipher (Then you may exile this spell card encoded on a creature you control. Whenever that creature deals combat damage to a player, its controller may cast a copy of the encoded card without paying its mana cost.)",,,,,,https://www.planesculptors.net/upload/5734/16049/Build%20Back%20Better.jpg,White,
+Colossus of Solitude,RW06,4WW,,Artifact Creature,Treefolk Druid,rare,"Lifelink
+When Colossus of Solitude enters, destroy up to one target artifact. When you do, its controller gains life equal to its mana value.",,6,6,,,https://www.planesculptors.net/upload/5734/16049/Colossus%20of%20Solitude.jpg,White,FALSE
+Concentrated Fire,CW16,1w,,Instant,,common,Concentrated Fire deals damage equal to the number of artifacts you control to target attacking or blocking creature.,"Kosmen’s army fired as one, and a wall of bolts spread outwards.",,,,,https://www.planesculptors.net/upload/5734/16049/Concentrated%20Fire.jpg,White,FALSE
+Craft the Menagerie,RW04,Xww,,Sorcery,,rare,"Create a 1/1 white Thopter artifact creature token with flying. If you spent 4 or more mana to cast this spell, also create a 2/2 white Drone artifact creature token with vigilance. If you spent 7 or more mana to cast this spell, also create a 3/3 green Beast artifact creature token with trample.",,,,,,https://www.planesculptors.net/upload/5734/16049/Craft%20the%20Menagerie.jpg,White,
+Defensive Position,CW18,1w,,Instant,,common,"Target artifact you control gains indestructible until end of turn. If it&#39;s a creature, put a +1/+1 counter on it. Otherwise, put a charge counter on it.",,,,,,https://www.planesculptors.net/upload/5734/16049/Defensive%20Position.jpg,White,
+Deprogram,CW14,2w,,Enchantment,Aura,common,"Enchant creature
+Enchanted creature can’t attack or block, and its activated abilities can’t be activated.
+{w}{w}: Exile enchanted creature. Any player may activate this ability.",,,,,,https://www.planesculptors.net/upload/5734/16049/Deprogram.jpg,White,
+Enthusiastic Birdwatcher,UW02,1w,,Artifact Creature,Treefolk,uncommon,"{2}, {t}: Return target creature you control to its owner&#39;s hand. Create a 1/1 white Thopter artifact creature token with flying.
+{3}{w}{w}, Exile Enthusiastic Birdwatcher from your graveyard: Create three 1/1 white Thopter artifact creature tokens with flying.",,1,1,,,https://www.planesculptors.net/upload/5734/16049/Enthusiastic%20Birdwatcher.jpg,White,
+Final Reckoning,RW08,4WW,,Sorcery,,rare,"Destroy all artifacts and creatures.
+If a source an opponent controls dealt damage to you this turn, you may cast Final Reckoning as though it had flash.",,,,,,https://www.planesculptors.net/upload/5734/16049/Final%20Reckoning.jpg,White,
+Gateway Guardian,UW07,2ww,,Artifact Creature,Angel,uncommon,"Flash
+Flying
+When Gateway Guardian enters, exile another target creature you own. Return it to the battlefield under your control at the beginning of the next end step.",,2,3,,,https://www.planesculptors.net/upload/5734/16049/Gateway%20Guardian.jpg,White,
+Griffin Fledgling,CW11,3w,,Artifact Creature,Griffin,common,"Flying
+When Griffin Fledgling enters, you may sacrifice a Scrap. When you do, put a +1/+1 counter on target creature.",,2,3,,,https://www.planesculptors.net/upload/5734/16049/Griffin%20Fledgling.jpg,White,
+Heavy Infantry,UW05,2W,,Artifact Creature,Soldier,uncommon,"Whenever Heavy Infantry attacks, it gets +1/+1 until end of turn for each attacking creature.","Through the mists, the legions of Kosmen came barreling down with only a single thought: assimilation.",1,1,,,https://www.planesculptors.net/upload/5734/16049/Heavy%20Infantry.jpg,White,FALSE
+Impedance,UW10,2W,,Enchantment,,uncommon,"Creatures can&#39;t attack you or a planeswalker you control unless their controller pays {1} for each of those creatures.
+Whenever a creature attacks you or a planeswalker you control, put a stun counter on it unless its controller pays {1}.",,,,,,https://www.planesculptors.net/upload/5734/16049/Impedance.jpg,White,FALSE
+Incremental Advancement,UW09,ww,,Enchantment,Aura,uncommon,"Enchant creature
+When Incremental Advancement enters, put a +1/+1 counter on enchanted creature.
+Whenever enchanted creature attacks, create a Scrap token. (It&#39;s an artifact with &quot;&quot;{1}, {t}, Sacrifice this artifact: Give target permanent another counter of each kind already there.&quot;&quot;)",,,,,,https://www.planesculptors.net/upload/5734/16049/Incremental%20Advancement.jpg,White,
+Kosmen Decommissioner,RW01,ww,,Artifact Creature,Warrior,rare,"Vigilance
+Tapped artifacts lose all abilities.","“This device is not authorized.”
+",2,2,,,https://www.planesculptors.net/upload/5734/16049/Kosmen%20Decommissioner.jpg,White,
+Kosmen&#39;s Induction,CW15,4w,,Enchantment,Aura,common,"Enchant creature
+When Kosmen&#39;s Induction enters, create a 2/2 white Drone artifact creature token with vigilance.
+Enchanted creature gets +2/+2 and has vigilance.",,,,,,https://www.planesculptors.net/upload/5734/16049/Kosmens%20Induction.jpg,White,
+"Kosmen, the World Mind",MW01,5W,Legendary,Artifact Creature,Construct,mythic,"Ward {4}
+Kosmen, the World Mind&#39;s power and toughness are each equal to the number of artifacts you control.
+{U}, {T}: Gain control of target artifact with mana value less than Kosmen&#39;s power for as long as you control Kosmen. If it&#39;s not a creature, you may have it become an artifact creature with power and toughness each equal to its mana value for as long as you control it.",,*,*,,,https://www.planesculptors.net/upload/5734/16049/Kosmen%20the%20World%20Mind.jpg,White,FALSE
+Kosmengeve Armorer,UW01,w,,Artifact Creature,Artificer,uncommon,"When Kosmengeve Armorer enters, you may sacrifice a Scrap. When you do, choose one —
+• Tap target artifact you don’t control.
+• Put a +1/+1 counter on Kosmengeve Armorer.",,2,1,,,https://www.planesculptors.net/upload/5734/16049/Kosmengeve%20Armorer.jpg,White,
+Kosmengeve Cavalry,CW13,4w,,Artifact Creature,Centaur Warrior,common,"When Kosmengeve Cavalry enters, creatures you control get +1/+1 and gain vigilance until end of turn.","Like the Association of Artina, Kosmen continuously seeks to improve on nature. Unlike the Association, this is purely a practical concern.",4,4,,,https://www.planesculptors.net/upload/5734/16049/Kosmengeve%20Cavalry.jpg,White,
+Kosmengeve Enforcer,UW08,3WW,,Artifact Creature,Warrior,uncommon,"Vigilance
+Other artifact creatures you control get +1/+1 and have vigilance.","The ranks of Kosmen’s army always march in lockstep.
+",3,4,,,https://www.planesculptors.net/upload/5734/16049/Kosmengeve%20Enforcer.jpg,White,FALSE
+Kosmengeve Footsoldier,CW03,w,,Artifact Creature,Soldier,common,"Clockwork 1 (This creature enters with 1 +1/+1 counters on it. Whenever it becomes tapped, remove one at end of turn.)
+When Kosmengeve Footsoldier dies, create a Scrap token. (It&#39;s an artifact with &quot;&quot;{1}, {t}, Sacrifice this artifact: Give target permanent another counter of each kind already there.&quot;&quot;)",,0,0,,,https://www.planesculptors.net/upload/5734/16049/Kosmengeve%20Footsoldier.jpg,White,FALSE
+Kosmengeve Vanguard,UW03,1w,,Artifact Creature,Warrior,uncommon,"Double strike
+Equip abilities you activate targeting Kosmengeve Vanguard cost {1} less to activate.",Kosmen makes no distinction between tool and wielder.,1,1,,,https://www.planesculptors.net/upload/5734/16049/Kosmengeve%20Vanguard.jpg,White,
+Level the Playing Field,UW12,2w,,Sorcery,,uncommon,"For each player, destroy up to one target tapped artifact or tapped creature that player controls. Then if you destroyed a permanent you control this way, draw a card.",,,,,,https://www.planesculptors.net/upload/5734/16049/Level%20the%20Playing%20Field.jpg,White,
+Mechanical Cuckoo,UW06,1ww,,Artifact Creature,Shapeshifter,uncommon,"Clockwork 3 (This creature enters with 3 +1/+1 counters on it. Whenever it becomes tapped, remove one at end of turn.)
+As this creature enters, choose a nonland card name. This creature has the chosen name.
+Spells that share a name with this creature cost {X} more to cast, where X is this creature&#39;s power.",,0,1,,,https://www.planesculptors.net/upload/5734/16049/Mechanical%20Cuckoo.jpg,White,
+Mynoreis Stalker,CW05,1W,,Artifact Creature,Cat,common,Flash,"Travel through the Mynoreis Wasteland is dangerous, and not just because of the icy chill.
+",3,1,,http://static02.mediaite.com/themarysue/uploads//2014/01/big5part51-640x437.jpg,https://www.planesculptors.net/upload/5734/16049/Mynoreis%20Stalker.jpg,White,FALSE
+Namekkos Paragon,RW02,2w,,Artifact Creature,Treefolk Warrior,rare,"Lifelink
+Whenever you gain life, you may put that many +1/+1 counters on target creature you control. Do this only once each turn.",&quot;&quot;I stand for a free future for all of Namekkos.&quot;&quot;,2,3,,,https://www.planesculptors.net/upload/5734/16049/Namekkos%20Paragon.jpg,White,
+Nesting Songbird,CW02,W,,Artifact Creature,Bird,common,"Clockwork 1 (This creature enters with 1 +1/+1 counters on it. Whenever it becomes tapped, remove one at end of turn.)
+Flying
+Whenever you remove one or more counters from Nesting Songbird, create that many 1/1 white Thopter artifact creature tokens with flying.",,0,1,,,https://www.planesculptors.net/upload/5734/16049/Nesting%20Songbird.jpg,White,
+Owlin Tinkerer,CW04,1w,,Artifact Creature,Bird Artificer,common,"Flying, lifelink
+At the beginning of your end step, if you gained 3 or more life this turn, create a Scrap token. (It&#39;s an artifact with &quot;&quot;{1}, {t}, Sacrifice this artifact: Give target permanent another counter of each kind already there.&quot;&quot;)",,1,2,,,https://www.planesculptors.net/upload/5734/16049/Owlin%20Tinkerer.jpg,White,
+Particular Pixie,RW03,2w,,Artifact Creature,Faerie Artificer,rare,"Flying
+At the beginning of your end step, if two or more differently named artifacts entered under your control this turn, draw a card.","&quot;&quot;No, no, that&#39;s too similar to last week&#39;s model!&quot;&quot;",3,2,,,https://www.planesculptors.net/upload/5734/16049/Particular%20Pixie.jpg,White,
+Recommission,CW19,1w,,Sorcery,,common,"Return target artifact or creature card with mana value 3 or less from your graveyard to the battlefield. If a creature enters this way, it enters with an additional +1/+1 counter on it.",,,,,,https://www.planesculptors.net/upload/5734/16049/Recommission.jpg,White,
+Reconfigure,UW11,2w,,Instant,,uncommon,"Choose one or both —
+• Exile target creature you control.
+• Exile target noncreature artifact you control.
+Then return the exiled cards to the battlefield under their owners’ control.",,,,,,https://www.planesculptors.net/upload/5734/16049/Reconfigure.jpg,White,
+Resources of the Empire,MW03,6w,,Enchantment,,mythic,"At the beginning of each end step, create a 2/2 white Drone artifact creature token with vigilance.
+You may tap an untapped creature you control rather than pay the {t} cost of activated abilities of noncreature artifacts you control.",,,,,,https://www.planesculptors.net/upload/5734/16049/Resources%20of%20the%20Empire.jpg,White,
+Scouting Party,CW08,2w,,Artifact Creature,Scout,common,"When Scouting Party enters, create a 1/1 white Thopter artifact creature token with flying.","Kosmen’s ingenuity allowed for ever faster intelligence gathering and materiel delivery, but they still needed to return to base at regular intervals, or else they’d be absorbed into the local avian population.",1,2,,,https://www.planesculptors.net/upload/5734/16049/Scouting%20Party.jpg,White,FALSE
+Strength Through Unity,CW17,3w,,Instant,,common,Untap target creature. It gets +2/+2 and gains first strike until end of turn.,All of the Kosmengeve Empire are aligned towards a singular goal.,,,,,https://www.planesculptors.net/upload/5734/16049/Strength%20Through%20Unity.jpg,White,
+Surveillance Drone,CW10,1ww,,Artifact Creature,Drone,common,"Whenever another Drone you control enters, put a +1/+1 counter on Surveillance Drone.
+A deck can have any number of cards named Surveillance Drone.","Kosmen sends its drones across Namekkos in search of ever more information about its enemies and their vulnerabilities.
+",1,1,,,https://www.planesculptors.net/upload/5734/16049/Surveillance%20Drone.jpg,White,FALSE
+Tame Pteranodon,CW09,2w,,Artifact Creature,Dinosaur,common,"Flying
+Whenever Tame Pteranodon attacks, another target attacking creature you control gains flying until end of turn.","Most thunderbeasts are too stubborn to tame, but their winged cousins can often be convinced with enough treats.",2,2,,,https://www.planesculptors.net/upload/5734/16049/Tame%20Pteranodon.jpg,White,
+Urbka Sentry,CW06,1w,,Artifact Creature,Warrior,common,"Clockwork 2 (This creature enters with 2 +1/+1 counters on it. Whenever it becomes tapped, remove one at end of turn.)
+{1}{W}: Urbka Sentry gains vigilance until end of turn.",,0,1,,,https://www.planesculptors.net/upload/5734/16049/Urbka%20Sentry.jpg,White,FALSE
+Adaptive Clockwork,RU03,3U,,Artifact Creature,Shapeshifter,rare,"You may have Adaptive Clockwork enter as a copy of any artifact or creature on the battlefield, except it&#39;s an artifact in addition to its other types. If that permanent had counters on it, Adaptive Clockwork enters with that number and kind of counters on it.",,0,0,,,https://www.planesculptors.net/upload/5734/16049/Adaptive%20Clockwork.jpg,Blue,FALSE
+Anima Reclaimer,UU06,2uu,,Artifact Creature,Ape Artificer,uncommon,"{u}, {t}, Sacrifice Anima Reclaimer: Counter target spell unless its controller pays {3}.
+Whenever a spell you control is countered, add mana equal to its mana cost. (Mana cost includes color.)",,3,3,,,https://www.planesculptors.net/upload/5734/16049/Anima%20Reclaimer.jpg,Blue,
+Artinan Aeronaut,RU02,2u,,Artifact Creature,Artificer,rare,"Clockwork 2 (This creature enters with 2 +1/+1 counters on it. Whenever it becomes tapped, remove one at end of turn.)
+Flying
+When Artinan Aeronaut enters, create a Scrap token.
+Whenever one or more +1/+1 counters are put on Artinan Aeronaut, draw a card, then discard a card.",,0,1,,,https://www.planesculptors.net/upload/5734/16049/Artinan%20Aeronaut.jpg,Blue,
+Artinan Surveyor,CU08,4u,,Artifact Creature,Bird Scout,common,"Clockwork 3 (This creature enters with 3 +1/+1 counters on it. Whenever it becomes tapped, remove one at end of turn.)
+Flying
+Whenever you cast a noncreature spell, create a Scrap token. (It&#39;s an artifact with &quot;&quot;{1}, {t}, Sacrifice this artifact: Give target permanent another counter of each kind already there.&quot;&quot;)",,0,1,,,https://www.planesculptors.net/upload/5734/16049/Artinan%20Surveyor.jpg,Blue,
+Assembly Order,CU14,3uu,,Instant,,common,"Draw three cards, then discard a card. If you discard an artifact card this way, create a 1/1 white Thopter artifact creature token with flying.",,,,,,https://www.planesculptors.net/upload/5734/16049/Assembly%20Order.jpg,Blue,
+Chromeshell Tortoise,RU04,3uu,,Artifact Creature,Turtle,rare,"Ward {3}
+Whenever Chromeshell Tortoise becomes the target of a spell or ability, you may pay {3}. If you do, copy that spell or ability and choose new targets for it.",,3,4,,,https://www.planesculptors.net/upload/5734/16049/Chromeshell%20Tortoise.jpg,Blue,
+Cliffside Pterosaur,CU04,2u,,Artifact Creature,Dinosaur,common,"Clockwork 2 (This creature enters with 2 +1/+1 counters on it. Whenever it becomes tapped, remove one at end of turn.)
+Flying",Don’t let the unstable footing distract you from the threats overhead in the Sonkoso Pass.,1,1,,,https://www.planesculptors.net/upload/5734/16049/Cliffside%20Pterosaur.jpg,Blue,
+Comm-Line Interference,CU16,1u,,Instant,,common,Target creature gets -4/-0 until end of turn. Its controller mills four cards.,&quot;&quot;Hello? Hello?&quot;&quot;,,,,,https://www.planesculptors.net/upload/5734/16049/Comm-Line%20Interference.jpg,Blue,
+Conscript into the World Mind,RU06,U,,Instant,,rare,Counter target artifact or creature spell. It&#39;s controller creates a 2/2 white Drone artifact creature token with vigilance.,"What the Kosmengeve Empire doesn’t destroy, it absorbs.
+",,,,,https://www.planesculptors.net/upload/5734/16049/Conscript%20into%20the%20World%20Mind.jpg,Blue,
+Corrosive Winds,CU11,1u,,Enchantment,Aura,common,"Enchant creature
+At the beginning of each upkeep, if enchanted creature is untapped, tap it.",,,,,,https://www.planesculptors.net/upload/5734/16049/Corrosive%20Winds.jpg,Blue,FALSE
+Council&#39;s Dismissal,UU10,1u,,Instant,,uncommon,"Return target nonland permanent to its owner&#39;s hand. If that permanent had counters on it, create a Scrap token. (It&#39;s an artifact with &quot;&quot;{1}, {t}, Sacrifice this artifact: Give target permanent another counter of each kind already there.&quot;&quot;)",,,,,,https://www.planesculptors.net/upload/5734/16049/Councils%20Dismissal.jpg,Blue,
+Counsel of Vyst,CU17,2u,,Sorcery,,common,"As an additional cost to cast this spell, sacrifice X Scraps.
+Scry X, then draw two cards.",,,,,,https://www.planesculptors.net/upload/5734/16049/Counsel%20of%20Vyst.jpg,Blue,FALSE
+Curious Cephalopod,CU09,4u,,Artifact Creature,Octopus,common,"When Curious Cephalopod enters, you may sacrifice a Scrap token. If you do, draw a card, then discard a card. Otherwise, create a Scrap token. (It&#39;s an artifact with &quot;&quot;{1}, {t}, Sacrifice this artifact: Give target permanent another counter of each kind already there.&quot;&quot;)","&quot;&quot;Best to throw it junk occasionally, or else it starts poking on board the ships.&quot;&quot;",3,5,,,https://www.planesculptors.net/upload/5734/16049/Curious%20Cephalopod.jpg,Blue,
+Disable,CU13,1u,,Instant,,common,"Counter target nonartifact spell.
+Surveil 1 (Look at the top one cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)",,,,,,https://www.planesculptors.net/upload/5734/16049/Disable.jpg,Blue,FALSE
+Dissociate,CU12,2u,,Instant,,common,"Return target spell to its owner&#39;s hand.
+If this is the second spell you&#39;ve cast this turn, you may shuffle Dissociate into its owner&#39;s library.",,,,,,https://www.planesculptors.net/upload/5734/16049/Dissociate.jpg,Blue,
+Distributed Intelligence,UU12,2U,,Sorcery,,uncommon,"Each player reveals the top card of their library. For each land card revealed this way, create a Treasure token. For each nonland card revealed this way, draw a card.","Kosmen&#39;s network of comm-lines crisscross northern Terle, giving it near-instant contact with any part of its empire.",,,,,https://www.planesculptors.net/upload/5734/16049/Distributed%20Intelligence.jpg,Blue,FALSE
+Enlightened Crafter,RU01,1u,,Artifact Creature,Artificer,rare,"You may look at the top card of your library any time.
+Once each turn, as long as you control three or more artifacts, you may cast an artifact, instant, or sorcery card from the top of your library.",,2,1,,,https://www.planesculptors.net/upload/5734/16049/Enlightened%20Crafter.jpg,Blue,
+Gator Baiter,CU07,3u,,Artifact Creature,Ape Druid,common,"When Gator Baiter enters, create a 3/3 green Beast artifact creature token with trample.","The apes have a mutualistic relationship with the local predators: the predators get easy prey delivered, and the apes get a kick out of it.",1,1,,,https://www.planesculptors.net/upload/5734/16049/Gator%20Baiter.jpg,Blue,
+Geflug Snapper,UU05,3u,,Artifact Creature,Turtle,uncommon,"Whenever an artifact you control enters, you may switch Geflug Snapper&#39;s power and toughness until end of turn.","To a snapper, all problems look like wires.",1,4,,,https://www.planesculptors.net/upload/5734/16049/Geflug%20Snapper.jpg,Blue,
+Geflug Sneak,CU05,2u,,Artifact Creature,Otter,common,"Whenever Geflug Sneak or another artifact you control enters, target player mills two cards. This ability triggers only once each turn.",,2,3,,,https://www.planesculptors.net/upload/5734/16049/Geflug%20Sneak.jpg,Blue,
+Gift of Anima,CU03,1u,,Enchantment,Aura,uncommon,"Enchant artifact
+As Gift of Anima enters, put five +1/+1 counters on enchanted artifact.
+Enchanted artifact is a creature with base power and toughness 0/0 in addition to its other types. If it doesn’t have clockwork, it has clockwork. (Whenever it becomes tapped, remove a +1/+1 counter from it at end of turn.)",,,,,,https://www.planesculptors.net/upload/5734/16049/Gift%20of%20Anima.jpg,Blue,
+Halt Order,UU09,2U,,Instant,,uncommon,"Counter target artifact spell.
+Draw a card.",A clockmaker&#39;s least favorite tele-missive may be &quot;&quot;I regret to inform you that the funding for your project has been cut.&quot;&quot;,,,,,https://www.planesculptors.net/upload/5734/16049/Halt%20Order.jpg,Blue,FALSE
+Imlau the Dreamer,MU01,3uuu,Legendary,Artifact Creature,Sphinx,mythic,"Flying
+Whenever Imlau the Dreamer deals combat damage to a player, search your library for a card, exile it face down, then shuffle. An opponent guesses its mana value. Reveal it. If they guessed wrong and it has a different mana value than each other card revealed with Imlau the Dreamer, put it into your hand.",,4,5,Trav James,https://img00.deviantart.net/7d1d/i/2014/258/a/8/scrying_sphinx_by_travjames-d7zau93.jpg,https://www.planesculptors.net/upload/5734/16049/Imlau%20the%20Dreamer.jpg,Blue,
+Infinity Clock,MU02,2u,,Artifact,,mythic,"Clockwork 1
+{T}: Add {u}.
+{u}, {t}, Remove 10 charge counters from Infinity Clock and sacrifice it: Shuffle your hand and graveyard into your library, then draw seven cards. Take an extra turn after this one.",It doesn&#39;t just tell time; it tells time what to do.,,,,,https://www.planesculptors.net/upload/5734/16049/Infinity%20Clock.jpg,Blue,
+Lock Out,CU19,Uu,,Sorcery,,common,"Tap target artifact or creature an opponent controls and put a stun counter on it. (If a permanent with a stun counter would become untapped, remove one from it instead.)
+Cipher (Then you may exile this spell card encoded on a creature you control. Whenever that creature deals combat damage to a player, its controller may cast a copy of the encoded card without paying its mana cost.)",,,,,,https://www.planesculptors.net/upload/5734/16049/Lock%20Out.jpg,Blue,
+Lost in the Depths,CU18,1u,,Sorcery,,common,"Target player mills three cards.
+Cipher (Then you may exile this spell card encoded on a creature you control. Whenever that creature deals combat damage to a player, its controller may cast a copy of the encoded card without paying its mana cost.)",,,,,,https://www.planesculptors.net/upload/5734/16049/Lost%20in%20the%20Depths.jpg,Blue,
+Owlin Fledgling,CU06,3u,,Artifact Creature,Bird,common,"Clockwork 2 (This creature enters with 2 +1/+1 counters on it. Whenever it becomes tapped, remove one at end of turn.)
+Whenever you cast your second spell each turn, put a +1/+1 counter on Owlin Fledgling. It gains flying until the start of your next turn.
+",,0,0,,,https://www.planesculptors.net/upload/5734/16049/Owlin%20Fledgling.jpg,Blue,
+Pilfering Pixie,UU02,1u,,Artifact Creature,Faerie Artificer,uncommon,"Flying
+Pilfering Pixie can block only creatures with flying.
+Whenever Pilfering Pixie deals combat damage to an opponent, if an opponent controls more permanents than you, draw a card.",,2,1,,,https://www.planesculptors.net/upload/5734/16049/Pilfering%20Pixie.jpg,Blue,
+Pirated Plans,RU08,2u,,Sorcery,,rare,"Draw two cards, then discard a card. When you discard a card with clockwork this way, put its counters on target artifact or creature you control.
+Cipher (Then you may exile this spell card encoded on a creature you control. Whenever that creature deals combat damage to a player, its controller may cast a copy of the encoded card without paying its mana cost.)",,,,,,https://www.planesculptors.net/upload/5734/16049/Pirated%20Plans.jpg,Blue,
+Port Inspector,CU02,1u,,Artifact Creature,Pirate,common,"When Port Inspector enters, draw a card, then discard a card.
+Skulk (This creature can&#39;t be blocked by creatures with greater power.)","&quot;&quot;Gotta make sure all the paperwork&#39;s in order, eh?&quot;&quot;",2,1,,,https://www.planesculptors.net/upload/5734/16049/Port%20Inspector.jpg,Blue,
+Read the Room,UU08,2uu,,Instant,,uncommon,"When you cast this spell, copy it for each creature you control. You may choose new targets for the copies.
+Counter target spell unless its controller pays {1}.","He was met with disbelieving stares when he claimed he saw the stranger remove its own skull. But at the assertion that it was soft inside, he was laughed right out of the room.",,,,,https://www.planesculptors.net/upload/5734/16049/Read%20the%20Room.jpg,Blue,
+Replicating Menace,RU07,1u,,Instant,,rare,"Choose target nonlegendary artifact or creature. The next time one or more artifacts enter this turn, they enter as copies of the chosen permanent.",,,,,,https://www.planesculptors.net/upload/5734/16049/Replicating%20Menace.jpg,Blue,
+Resonance Dispersal,CU15,2u,,Instant,,common,"Return target artifact or creature to its owner&#39;s hand. If this is the second spell you&#39;ve cast this turn, its owner puts it on the top or bottom of their library instead.",,,,,,https://www.planesculptors.net/upload/5734/16049/Resonance%20Dispersal.jpg,Blue,
+Shiny Diver,UU04,2u,,Artifact Creature,Dinosaur,uncommon,"Flying
+Whenever another creature you control leaves the battlefield, if it had one or more cards encoded on it, you may exile Shiny Diver. If you do, return one of those cards to its owner&#39;s hand.",,2,2,,,https://www.planesculptors.net/upload/5734/16049/Shiny%20Diver.jpg,Blue,
+Silver Raven,CU01,u,,Artifact Creature,Bird,common,"Flying
+When Silver Raven enters, scry 1.",Wings take flight on whispered wind.,1,1,,,https://www.planesculptors.net/upload/5734/16049/Silver%20Raven.jpg,Blue,
+Temmar&#39;s Ascension,MU03,XXUU,,Sorcery,,mythic,"Search your library for an artifact card with mana value X or less, exile it, then shuffle. You may reveal an artifact card you own from outside the game and/or choose a face-up artifact card you own in exile with mana value X or less. You may cast one of those cards without paying its mana cost. Put any cards not cast this way into your hand.",,,,,,https://www.planesculptors.net/upload/5734/16049/Temmars%20Ascension.jpg,Blue,
+Terosev Scuttler,UU01,U,,Artifact Creature,Crab,uncommon,"Whenever a creature blocked by Terosev Scuttler this turn dies, put a +1/+1 counter on Terosev Scuttler.",It decorates it shell with scraps from ships that never reach the other side.,0,4,,,https://www.planesculptors.net/upload/5734/16049/Terosev%20Scuttler.jpg,Blue,FALSE
+Terosev Serpent,UU07,4u,,Artifact Creature,Serpent,uncommon,"Clockwork 5 (This creature enters with 5 +1/+1 counters on it. Whenever it becomes tapped, remove one at end of turn.)
+As an additional cost to cast this spell, sacrifice an artifact.
+When Terosev Serpent leaves the battlefield, return target artifact with mana value 4 or less from your graveyard to your hand.",,0,0,,,https://www.planesculptors.net/upload/5734/16049/Terosev%20Serpent.jpg,Blue,
+Terror of Ettero,CU10,5uu,,Artifact Creature,Serpent,common,"Clockwork 6 (This creature enters with 6 +1/+1 counters on it. Whenever it becomes tapped, remove one at end of turn.)
+This spell costs {1} less to cast for each instant and sorcery card in your graveyard and each instant and sorcery card you own in exile.",,0,0,,,https://www.planesculptors.net/upload/5734/16049/Terror%20of%20Ettero.jpg,Blue,
+Unwinding Drone,UU03,1U,,Artifact Creature,Drone,uncommon,{T}: Untap another target artifact or creature.,Its only business is to deal with others&#39;.,1,2,,,https://www.planesculptors.net/upload/5734/16049/Unwinding%20Drone.jpg,Blue,FALSE
+"Venser, Questing Shaper",RU05,2u,Legendary,Planeswalker,Venser,rare,"Flash
+[+1]: Tap or untap target permanent you control, then you tap or untap target permanent an opponent controls.
+[-2]: Return target spell or nonland permanent to its owner&#39;s hand. You may activate this ability any time you could cast an instant.",,,2,,,https://www.planesculptors.net/upload/5734/16049/Venser%20Questing%20Shaper.jpg,Blue,
+Voidwalk,UU11,3u,,Sorcery,,uncommon,"Exile target creature. Return it to the battlefield under its owner’s control at the beginning of the next end step.
+Cipher (Then you may exile this spell card encoded on a creature you control. Whenever that creature deals combat damage to a player, its controller may cast a copy of the encoded card without paying its mana cost.)",,,,,,https://www.planesculptors.net/upload/5734/16049/Voidwalk.jpg,Blue,
+Anima Extractor,UB07,3bb,,Artifact Creature,Vampire Artificer,uncommon,"Flying
+Clockwork 4 (This creature enters with 4 +1/+1 counters on it. Whenever it becomes tapped, remove one at end of turn.)
+Whenever Anima Extractor deals damage to a creature, tap that creature and put a +1/+1 counter on Anima Extractor.",,1,0,,,https://www.planesculptors.net/upload/5734/16049/Anima%20Extractor.jpg,Black,
+Anima Infester,CB03,1b,,Artifact Creature,Rat,common,"Whenever Anima Infester deals combat damage to a player, you may sacrifice it. When you do, remove all counters from target permanent that player controls.",,2,1,,,https://www.planesculptors.net/upload/5734/16049/Anima%20Infester.jpg,Black,
+Anima Inversion,MB02,4b,,Artifact Creature,Elemental,mythic,"Clockwork 5
+Whenever Anima Inversion becomes tapped, counter any number of other target activated or triggered abilities. You lose 1 life for each ability countered this way.
+At the beginning of each end step, put a +1/+1 counter on each of up to X target creatures, where X is the amount of life you lost this turn.",,0,0,,,https://www.planesculptors.net/upload/5734/16049/Anima%20Inversion.jpg,Black,
+Bramble Thicket,CB05,2b,,Artifact Creature,Treefolk,common,"Whenever an equipped creature deals damage to Bramble Thicket, attach target Equipment attached to that creature to Bramble Thicket. It gains &quot;&quot;Equip abilities of this Equipment cost {1} more to activate.&quot;&quot;",,1,3,,,https://www.planesculptors.net/upload/5734/16049/Bramble%20Thicket.jpg,Black,
+"Braxa, Terror of Mount Sola",MB01,6b,Legendary,Artifact Creature,Demon,mythic,"Flying, trample
+Whenever a creature an opponent controls dies, if it had counters on it, you may put those counters on Braxa, Terror of Mount Sola.
+Whenever a creature card with clockwork is put into an opponent&#39;s graveyard from anywhere other than the battlefield, put its counters on Braxa.",,5,5,,,https://www.planesculptors.net/upload/5734/16049/Braxa%20Terror%20of%20Mount%20Sola.jpg,Black,
+Cable Nibbler,CB01,B,,Artifact Creature,Rat,common,"Deathtouch
+When Cable Nibbler dies, create a Scrap token. (It&#39;s an artifact with &quot;&quot;{1}, {t}, Sacrifice this artifact: Give target permanent another counter of each kind already there.&quot;&quot;)",,1,1,,,https://www.planesculptors.net/upload/5734/16049/Cable%20Nibbler.jpg,Black,FALSE
+Crowd Justice,UB09,2bb,,Instant,,uncommon,"Each creature gets -2/-2 until end of turn. Whenever a nontoken creature dies this turn, create a Scrap token. (It&#39;s an artifact with &quot;&quot;{1}, {t}, Sacrifice this artifact: Give target permanent another counter of each kind already there.&quot;&quot;)",,,,,,https://www.planesculptors.net/upload/5734/16049/Crowd%20Justice.jpg,Black,FALSE
+Cut Down to Size,CB12,1b,,Enchantment,Aura,common,"Enchant creature
+Enchanted creature gets -2/-2.
+When enchanted creature dies, exile it and create a 1/1 black Skeleton artifact creature token.","&quot;&quot;Not so tough now, huh?&quot;&quot;",,,,,https://www.planesculptors.net/upload/5734/16049/Cut%20Down%20to%20Size.jpg,Black,
+Dark Ascetic,UB06,2BB,,Artifact Creature,Cleric,uncommon,"{1}{B}, Sacrifice another artifact or creature: Put a +1/+1 counter on Dark Ascetic if you sacrificed an artifact this way. Dark Ascetic gains indestructible until end of turn if you sacrificed a creature this way. (Do both if you sacrificed an artifact creature).",Supplicants are encouraged to bring offerings.,1,1,,,https://www.planesculptors.net/upload/5734/16049/Dark%20Ascetic.jpg,Black,FALSE
+Energy Transfer,UB08,3b,,Enchantment,Aura,uncommon,"Enchant creature you control
+When Energy Transfer enters, put a +1/+1 counter on enchanted creature.
+When enchanted creature dies, return target creature card with lesser power from your graveyard to the battlefield tapped.",,,,,,https://www.planesculptors.net/upload/5734/16049/Energy%20Transfer.jpg,Black,
+"Fon-Novux, Entropic Warden",RB05,5BB,Legendary,Artifact Creature,Treefolk,rare,"When Fon-Novux, Entropic Warden enters, put target nonlegendary creature card from a graveyard onto the battlefield under your control.
+When Fon-Novux dies, if it wasn&#39;t a token, create a token that&#39;s a copy of it.",It&#39;s hard to see the forest for the trees when the trees keep trying to kill you.,4,7,,,https://www.planesculptors.net/upload/5734/16049/Fon-Novux%20Entropic%20Warden.jpg,Black,
+Gear Strip,CB13,1b,,Instant,,common,"As an additional cost to cast this spell, sacrifice an artifact or pay {3}.
+Destroy target creature. Its controller loses 2 life.",,,,,,https://www.planesculptors.net/upload/5734/16049/Gear%20Strip.jpg,Black,
+Hungry Stray,UB01,b,,Artifact Creature,Cat,uncommon,"When Hungry Stray enters, target opponent loses 1 life and you gain 1 life.
+Whenever you sacrifice a Scrap, you may pay {b}. If you do, return Hungry Stray from your graveyard to the battlefield tapped.",Feed it once and it&#39;ll never leave.,1,1,,,https://www.planesculptors.net/upload/5734/16049/Hungry%20Stray.jpg,Black,
+Junkyard Pilferer,CB08,3b,,Artifact Creature,Artificer Rogue,common,"At the beginning of your end step, you may exile target creature card from a graveyard. If you do, create a 1/1 black Skeleton artifact creature token.","&quot;&quot;What a state the world is in. I restore them from junk, and they aren&#39;t even grateful.&quot;&quot;",4,3,,,https://www.planesculptors.net/upload/5734/16049/Junkyard%20Pilferer.jpg,Black,
+Lauflug Pirates,CB10,3bb,,Artifact Creature,Pirate,common,"Clockwork 3 (This creature enters with 3 +1/+1 counters on it. Whenever it becomes tapped, remove one at end of turn.)
+Whenever Lauflug Pirates deals combat damage to a player, each player mills that many cards.",,1,0,,,https://www.planesculptors.net/upload/5734/16049/Lauflug%20Pirates.jpg,Black,
+Magnetic Induction,RB07,3bb,,Sorcery,,rare,"For each player, you create a 1/1 white Thopter artifact creature token with flying, then move any number of counters from among permanents that player controls onto that token.",,,,,,https://www.planesculptors.net/upload/5734/16049/Magnetic%20Induction.jpg,Black,
+Mark for Disposal,CB14,2b,,Instant,,common,"Target creature gets -4/-4 until end of turn. When that creature dies this turn, exile it and you create a Scrap token. (It&#39;s an artifact with &quot;&quot;{1}, {t}, Sacrifice this artifact: Give target permanent another counter of each kind already there.&quot;&quot;)",,,,,,https://www.planesculptors.net/upload/5734/16049/Mark%20for%20Disposal.jpg,Black,
+Mischief of Rats,UB02,bb,,Artifact Creature,Rat,uncommon,"Clockwork 2 (This creature enters with 2 +1/+1 counters on it. Whenever it becomes tapped, remove one at end of turn.)
+When Mischief of Rats dies, if it had no counters on it, return it to its owner&#39;s hand.","They consist of parts repurposed from any source, even each other.",0,0,,,https://www.planesculptors.net/upload/5734/16049/Mischief%20of%20Rats.jpg,Black,FALSE
+Morex Vultures,UB04,2b,,Artifact Creature,Bird,uncommon,"Flying
+When Morex Vultures enters, you may exile target creature card from your graveyard. When you do, create a token that&#39;s a copy of the exiled card, except it&#39;s 1/1 black Skeleton.",,2,2,,,https://www.planesculptors.net/upload/5734/16049/Morex%20Vultures.jpg,Black,
+Multi-Limbed Menace,CB07,2b,,Artifact Creature,Warrior,common,"Clockwork 2 (This creature enters with 2 +1/+1 counters on it. Whenever it becomes tapped, remove one at end of turn.)
+Menace",,2,0,,,https://www.planesculptors.net/upload/5734/16049/Multi-Limbed%20Menace.jpg,Black,
+Pallid Duskhunter,CB09,3b,,Artifact Creature,Bat,common,"Flying
+When Pallid Duskhunter enters or dies, each opponent loses 1 life and you gain 1 life.",,2,3,,,https://www.planesculptors.net/upload/5734/16049/Pallid%20Duskhunter.jpg,Black,
+Parasitic Wasp,RB04,3bb,,Artifact Creature,Insect,rare,"Deathtouch, flying
+Whenever a creature dealt damage by Parasitic Wasp this turn dies, create a token that&#39;s a copy of Parasitic Wasp.",,2,2,,http://www.popsci.com/files/imagecache/photogallery_image/articles/braconidae.jpg,https://www.planesculptors.net/upload/5734/16049/Parasitic%20Wasp.jpg,Black,
+Peatland Lurker,CB11,5b,,Artifact Creature,Giant,common,"Deathtouch
+{2}{b}, Discard Peatland Lurker: Put a +1/+1 counter on target creature. It gains deathtouch until end of turn.",Landmarks in the Aqming Peatlands tend to vanish right when you need them most.,4,6,,,https://www.planesculptors.net/upload/5734/16049/Peatland%20Lurker.jpg,Black,
+Pulgap Jackals,UB05,2b,,Artifact Creature,Jackal,uncommon,"When Pulgap Jackals enters, each player sacrifices a nontoken creature.
+Sacrifice three Scraps: Return Pulgap Jackals from your graveyard to your hand.",,3,1,,,https://www.planesculptors.net/upload/5734/16049/Pulgap%20Jackals.jpg,Black,
+Redistribution of Power,RB06,2bb,,Instant,,rare,"As an additional cost to cast this spell, sacrifice a creature.
+You draw cards equal to the sacrificed creature’s power and you lose that much life. Distribute that many +1/+1 counters among creatures you control.",,,,,,https://www.planesculptors.net/upload/5734/16049/Redistribution%20of%20Power.jpg,Black,
+Relentless Tracker,CB06,2b,,Artifact Creature,Dog,common,"Clockwork 3 (This creature enters with 3 +1/+1 counters on it. Whenever it becomes tapped, remove one at end of turn.)
+Relentless Tracker can&#39;t block.",It never slows and it never loses a trail.,0,0,,,https://www.planesculptors.net/upload/5734/16049/Relentless%20Tracker.jpg,Black,
+Remote Operator,UB03,1b,,Artifact Creature,Artificer,uncommon,"Deathtouch
+When Remote Operator dies, create a 1/1 white Thopter artifact creature token with flying.","&quot;&quot;Questioning this one&#39;s gonna be hard, boss. His, uh, head escaped.&quot;&quot;",1,2,,,https://www.planesculptors.net/upload/5734/16049/Remote%20Operator.jpg,Black,
+Rise from Rust,CB15,3b,,Instant,,common,"Return target artifact or creature card from your graveyard to your hand. When you return a card with clockwork this way, put its counters on target artifact or creature you control.",,,,,,https://www.planesculptors.net/upload/5734/16049/Rise%20from%20Rust.jpg,Black,
+Schematic Extraction,CB17,2b,,Sorcery,,common,"Target player discards a card. If they discard an artifact card this way, you draw a card. Otherwise, they discard another card.",&quot;&quot;Let&#39;s see what makes you tick.&quot;&quot;,,,,,https://www.planesculptors.net/upload/5734/16049/Schematic%20Extraction.jpg,Black,FALSE
+Scramble the Comm-Lines,UB10,4b,,Instant,,uncommon,Exile target creature. Each player mills cards equal to its power.,&quot;&quot;Let&#39;s see Kosmen make any sense of this!&quot;&quot;,,,,,https://www.planesculptors.net/upload/5734/16049/Scramble%20the%20Comm-Lines.jpg,Black,
+Scrappy Underdog,CB02,b,,Artifact Creature,Warrior,common,"Clockwork 1 (This creature enters with 1 +1/+1 counters on it. Whenever it becomes tapped, remove one at end of turn.)
+When Scrappy Underdog dies, give target permanent another counter of each kind already there.",&quot;&quot;That all you got?&quot;&quot;,1,0,,,https://www.planesculptors.net/upload/5734/16049/Scrappy%20Underdog.jpg,Black,
+Shadow Boxer,RB02,2b,,Artifact Creature,Warrior,rare,"Clockwork 3 (This creature enters with 3 +1/+1 counters on it. Whenever it becomes tapped, remove one at end of turn.)
+Skulk (This creature can&#39;t be blocked by creatures with greater power.)
+Whenever Shadow Boxer deals combat damage to a player, it deals that much damage to target creature that player controls and you gain that much life.",,1,0,,,https://www.planesculptors.net/upload/5734/16049/Shadow%20Boxer.jpg,Black,
+Shambling Amalgamator,RB03,2bb,,Artifact Creature,Horror,rare,"Menace
+At the beginning of each combat, any opponent may sacrifice a nontoken artifact. If a player does, tap Shambling Amalgamator and put a +1/+1 counter on it.",,6,6,,,https://www.planesculptors.net/upload/5734/16049/Shambling%20Amalgamator.jpg,Black,FALSE
+Sickening Radiance,MB03,3bb,,Enchantment,,mythic,"When Sickening Radiance enters, each creature gets -1/-1 until end of turn.
+Whenever a creature you control dies, each creature your opponents control get -1/-1 until end of turn.",,,,,,https://www.planesculptors.net/upload/5734/16049/Sickening%20Radiance.jpg,Black,
+Spreading Rust,CB19,1bb,,Sorcery,,uncommon,"Remove all counters from target permanent an opponent controls.
+Cipher (Then you may exile this spell card encoded on a creature you control. Whenever that creature deals combat damage to a player, its controller may cast a copy of the encoded card without paying its mana cost.)",,,,,,https://www.planesculptors.net/upload/5734/16049/Spreading%20Rust.jpg,Black,
+Strip for Parts,CB16,2bb,,Sorcery,,common,"Destroy target creature. Choose one —
+• Create a 1/1 black Skeleton artifact creature token.
+• Create two Scrap tokens. (They&#39;re artifacts with &quot;&quot;{1}, {t}, Sacrifice this artifact: Give target permanent another counter of each kind already there.&quot;&quot;)",Competition for resources is cutthroat in the Morex Syndicate.,,,,,https://www.planesculptors.net/upload/5734/16049/Strip%20for%20Parts.jpg,Black,
+Swap Out Parts,UB12,2B,,Sorcery,,uncommon,"Put target creature card from a graveyard onto the battlefield under your control, then sacrifice any number of creatures with equal or greater total mana value.",,,,,,https://www.planesculptors.net/upload/5734/16049/Swap%20Out%20Parts.jpg,Black,
+Syndicate Guard-Captain,RB01,1b,,Artifact Creature,Warrior,rare,"Syndicate Guard-Captain has first strike as long as it&#39;s attacking.
+Whenever Syndicate Guard-Captain deals combat damage to an opponent, other creatures you control get +1/+0 until end of turn.",,3,1,,,https://www.planesculptors.net/upload/5734/16049/Syndicate%20Guard-Captain.jpg,Black,
+Syndicate Hacker,CB04,1b,,Artifact Creature,Artificer,common,"Flying
+When Syndicate Hacker dies, each opponent discards a card.","Wingsuit modeled after pteranodon wings, disruption technique modeled after the less bright pteranodons.",1,1,,,https://www.planesculptors.net/upload/5734/16049/Syndicate%20Hacker.jpg,Black,
+Tersol Scavenging,CB18,1b,,Sorcery,,common,"Whenever a creature card is put into a graveyard from anywhere this turn, each opponent loses 1 life.
+Each player mills two cards, then you may put a card from your graveyard on top of your library.
+Cipher (Then you may exile this spell card encoded on a creature you control. Whenever that creature deals combat damage to a player, its controller may cast a copy of the encoded card without paying its mana cost.)",,,,,,https://www.planesculptors.net/upload/5734/16049/Tersol%20Scavenging.jpg,Black,
+Torment of Braxa,RB08,2bb,,Sorcery,,rare,"Each opponent loses 3 life unless that player sacrifices a nonland permanent or discards a card.
+Cipher","Parents tell stories of the demonic Braxa to keep their children in line, secretly hoping they&#39;re not true themselves.",,,,,https://www.planesculptors.net/upload/5734/16049/Torment%20of%20Braxa.jpg,Black,
+Vile Eclipse,UB11,1b,,Sorcery,,uncommon,"Target opponent sacrifices a creature or enchantment.
+Cipher (Then you may exile this spell card encoded on a creature you control. Whenever that creature deals combat damage to a player, its controller may cast a copy of the encoded card without paying its mana cost.)",,,,,,https://www.planesculptors.net/upload/5734/16049/Vile%20Eclipse.jpg,Black,
+Arza District Insurrectionist,RR01,1r,,Artifact Creature,Warrior,rare,"Whenever Arza District Insurrectionist attacks, target creature defending player controls with power less than Arza District Insurrectionist&#39;s power can&#39;t block this turn.
+Whenever you remove a counter from another permanent you control, put a +1/+1 counter on Arza District Insurrectionist. This ability triggers only once each turn.",,3,1,,,https://www.planesculptors.net/upload/5734/16049/Arza%20District%20Insurrectionist.jpg,Red,
+Band of Raptors,UR06,3r,,Artifact Creature,Dinosaur,uncommon,"{R}: Band of Raptors gains your choice of haste or menace until end of turn.
+{R}: Band of Raptors gets +1/+0 until end of turn.",,3,3,,,https://www.planesculptors.net/upload/5734/16049/Band%20of%20Raptors.jpg,Red,FALSE
+Careless Forgetender,UR04,2r,,Artifact Creature,Artificer,uncommon,"At the beginning of your upkeep, sacrifice a token. When you do, put a +1/+1 counter on Careless Forgetender and create a 2/1 red Elemental artifact creature token with haste and &quot;&quot;At the beginning of your end step, sacrifice this creature.&quot;&quot;",,2,2,,,https://www.planesculptors.net/upload/5734/16049/Careless%20Forgetender.jpg,Red,
+Chips Are Down,RR06,3rr,,Enchantment,,rare,"Players can&#39;t cast spells from their hands.
+At the beginning of each player&#39;s upkeep, they exile the top card of their library.  Until end of turn, they may cast spells from among cards exiled with Chips Are Down, and they may spend mana as though it were mana of any type to cast that spell.",,,,,,https://www.planesculptors.net/upload/5734/16049/Chips%20Are%20Down.jpg,Red,
+Corrosive Spray,CR18,r,,Sorcery,,common,"Corrosive Spray deals 1 damage to any target. It deals 3 damage instead if that target is a creature that’s been dealt damage this turn.
+Cipher (Then you may exile this spell card encoded on a creature you control. Whenever that creature deals combat damage to a player, its controller may cast a copy of the encoded card without paying its mana cost.)",,,,,,https://www.planesculptors.net/upload/5734/16049/Corrosive%20Spray.jpg,Red,
+Crackling Ceratops,CR02,1r,,Artifact Creature,Dinosaur,common,"Clockwork 2 (This creature enters with 2 +1/+1 counters on it. Whenever it becomes tapped, remove one at end of turn.)
+{3}{r}: Put a +1/+1 counter on Crackling Ceratops. Activate this ability only once each turn and only if Crackling Ceratops is attacking.","It burrows in the desert sands during the day, which builds up an electric charge in its horns it can release for defense.",0,0,,,https://www.planesculptors.net/upload/5734/16049/Crackling%20Ceratops.jpg,Red,
+Desert Colossus,RR05,4RR,,Artifact Creature,Giant,rare,"Menace
+When Desert Colossus enters, each player sacrifices a nonbasic land.
+Whenever you cast your second spell each turn, return Desert Colossus from your graveyard to your hand.",,6,6,keepwalking07,http://th07.deviantart.net/fs71/PRE/f/2012/048/5/5/the_crab_by_keepwalking07-d4q2y53.jpg,https://www.planesculptors.net/upload/5734/16049/Desert%20Colossus.jpg,Red,FALSE
+Flechette Thrower,MR02,4R,,Artifact Creature,Warrior,mythic,"Whenever Flechette Thrower attacks, gain control of target artifact attached to a creature defending player controls until end of turn and attach it to Flechette Thrower.
+{R}: If you would lose control of target artifact this turn, instead sacrifice that artifact. When you do, Flechette Thrower deals damage to any target equal to the sacrificed permanent&#39;s mana value.",,4,3,,,https://www.planesculptors.net/upload/5734/16049/Flechette%20Thrower.jpg,Red,FALSE
+Freedom of Information,RR08,1rr,,Sorcery,,rare,"Whenever you play a card from exile this turn, create a Treasure token.
+Exile the top two cards of your library. You may play those cards this turn.
+Cipher","Free to the highest bidder, that is.",,,,,https://www.planesculptors.net/upload/5734/16049/Freedom%20of%20Information.jpg,Red,
+Gensto Crasher,CR10,3rr,,Artifact Creature,Ape,common,Reach,Not every landslide in the Gensto Mountains has a natural cause.,4,5,,,https://www.planesculptors.net/upload/5734/16049/Gensto%20Crasher.jpg,Red,FALSE
+Hijack,CR17,1rr,,Sorcery,,common,Gain control of target artifact or creature until end of turn. Untap it. It gains haste until end of turn.,Kosmen&#39;s control will slowly fade if an organism is disconnected from the World Mind for too long. A little tinkering can expediate the process.,,,,,https://www.planesculptors.net/upload/5734/16049/Hijack.jpg,Red,
+Improvised Weapons,CR12,R,,Enchantment,Aura,common,"As an additional cost to cast this spell, sacrifice a Scrap or pay {2}.
+Enchant creature
+Enchanted creature gets +2/+0 and has first strike.",,,,,,https://www.planesculptors.net/upload/5734/16049/Improvised%20Weapons.jpg,Red,
+Insatiable Furnace,RR04,3rr,,Artifact,,rare,"Whenever Insatiable Furnace or another artifact you control it put into the graveyard from the battlefield, you may create a number of 2/1 red Elemental artifact creature tokens with haste and &quot;&quot;At the beginning of your end step, sacrifice this creature&quot;&quot; equal to that permanent&#39;s mana value. Do this only once each turn.",,,,,,https://www.planesculptors.net/upload/5734/16049/Insatiable%20Furnace.jpg,Red,
+Liburb District Engineer,RR03,3r,,Artifact Creature,Artificer,rare,"Clockwork 3 (This creature enters with 3 +1/+1 counters on it. Whenever it becomes tapped, remove one at end of turn.)
+First strike
+Whenever Liburb District Engineer deals combat damage to a player, you may copy the next instant or sorcery spell you cast this turn. When you do, put a +1/+1 counter on Liburb District Engineer and untap it.",,0,0,,,https://www.planesculptors.net/upload/5734/16049/Liburb%20District%20Engineer.jpg,Red,
+Morex Sell-Sword,UR01,R,,Artifact Creature,Warrior,uncommon,"Haste
+At the beginning of each players upkeep, that player untaps Morex Sell-Sword and gains control of it.",,2,2,,,https://www.planesculptors.net/upload/5734/16049/Morex%20Sell-Sword.jpg,Red,
+Mount Sola Ascetic,CR06,2r,,Artifact Creature,Shaman,common,"Whenever Mount Sola Ascetic is dealt damage, create a Scrap token. (It&#39;s an artifact with &quot;&quot;{1}, {t}, Sacrifice this artifact: Give target permanent another counter of each kind already there.&quot;&quot;)",,3,2,,,https://www.planesculptors.net/upload/5734/16049/Mount%20Sola%20Ascetic.jpg,Red,
+Optimistic Rummager,UR03,1r,,Artifact Creature,Ape Artificer,uncommon,"{T}, Discard a card: Draw a card and reveal it. If its mana value is less than the mana value of the card you discarded, Optimistic Rummager deals damage to you equal to the difference.",&quot;&quot;Where did you even *get* high explosives?&quot;&quot;,3,1,,,https://www.planesculptors.net/upload/5734/16049/Optimistic%20Rummager.jpg,Red,
+Ornery Trusosaur,CR11,4RR,,Artifact Creature,Dinosaur,common,"Menace
+Ornery Trusosaur gets +1/+1 for each instant and sorcery card you own in exile.",,5,4,,,https://www.planesculptors.net/upload/5734/16049/Ornery%20Trusosaur.jpg,Red,
+Overclock,UR09,XRr,,Instant,,uncommon,"Until end of turn, target creature you control gets + X/+0 and gains trample and &quot;&quot;Whenever this creature deals combat damage to a player, create that many Scrap tokens.&quot;&quot; At the beginning of the next end step, Overclock deals X damage to it. (They&#39;re artifacts with &quot;&quot;{1}, {t}, Sacrifice this artifact: Give target permanent another counter of each kind already there.&quot;&quot;)",,,,,,https://www.planesculptors.net/upload/5734/16049/Overclock.jpg,Red,FALSE
+Ovoraptor,RR02,2r,,Artifact Creature,Dinosaur,rare,"Whenever Ovoraptor blocks or becomes blocked by a creature, Ovoraptor deals damage to that creature equal to the number of counters on that creature.
+Whenever you sacrifice an artifact, put a +1/+1 counter on Ovoraptor.",,2,1,,,https://www.planesculptors.net/upload/5734/16049/Ovoraptor.jpg,Red,
+Plagiarize,RR07,2rr,,Instant,,rare,"Copy target artifact, instant, or sorcery spell. You may choose new targets for the copy. If you copy an artifact spell this way, the permanent it becomes has haste and &quot;&quot;Sacrifice this permanent at the beginning of your end step.&quot;&quot;",,,,,,https://www.planesculptors.net/upload/5734/16049/Plagiarize.jpg,Red,
+Pulgap Deadshot,CR03,1r,,Artifact Creature,Warrior,common,"Whenever you cast an artifact spell, Pulgap Deadshot deals 1 damage to any target. This ability triggers only once each turn.","She vanishes in the heat shimmers, but her bolt strikes true.",2,1,,,https://www.planesculptors.net/upload/5734/16049/Pulgap%20Deadshot.jpg,Red,
+Pulgap Raider,CR04,1r,,Artifact Creature,Warrior,common,"Clockwork 2 (This creature enters with 2 +1/+1 counters on it. Whenever it becomes tapped, remove one at end of turn.)
+{1}{r}: Pulgap Raider gains first strike until end of turn.",,1,0,,,https://www.planesculptors.net/upload/5734/16049/Pulgap%20Raider.jpg,Red,FALSE
+Raging Thunderbeast,CR07,2rr,,Artifact Creature,Dinosaur,common,"Clockwork 4 (This creature enters with 4 +1/+1 counters on it. Whenever it becomes tapped, remove one at end of turn.)
+Haste
+Raging Thunderbeast attacks each turn if able.",,1,0,,,https://www.planesculptors.net/upload/5734/16049/Raging%20Thunderbeast.jpg,Red,
+Rapid Assembly,CR15,3r,,Instant,,common,"Choose one —
+• Create two Scrap tokens. Put a +1/+1 counter on each of them and they become 0/0 artifact creatures.
+• Creatures you control get +2/+0 until end of turn.","“I don’t care if their sudden consciousness is disorienting, show them the pointy end of the stick and get them back out there!”",,,,,https://www.planesculptors.net/upload/5734/16049/Rapid%20Assembly.jpg,Red,
+Receive New Orders,UR10,2r,,Instant,,uncommon,"As an additional cost to cast this spell, you may put a card with cipher you own in exile into your graveyard. When you do, copy this spell.
+Exile the top two cards of your library. Until the end of your next turn, you may play those cards.","With a clank and a hum, a new message filled the comm-lines.",,,,,https://www.planesculptors.net/upload/5734/16049/Receive%20New%20Orders.jpg,Red,
+Repurpose,CR19,1r,,Sorcery,,common,"As an additional cost to cast this spell, discard a card.
+Draw two cards and create a Scrap token.
+Cipher (Then you may exile this spell card encoded on a creature you control. Whenever that creature deals combat damage to a player, its controller may cast a copy of the encoded card without paying its mana cost.)",,,,,,https://www.planesculptors.net/upload/5734/16049/Repurpose.jpg,Red,
+Resonance Bolt,CR14,r,,Instant,,common,"Resonance Bolt deals 2 damage to any target. If this is the second spell you&#39;ve cast this turn, Resonance Bolt deals 4 damage to that permanent or player instead.",,,,,,https://www.planesculptors.net/upload/5734/16049/Resonance%20Bolt.jpg,Red,
+Scrap Polisher,UR02,1r,,Artifact Creature,Artificer,uncommon,"When Scrap Polisher enters, create a Scrap token. (It&#39;s an artifact with &quot;&quot;{1}, {t}, Sacrifice this artifact: Give target permanent another counter of each kind already there.&quot;&quot;)
+Sacrifice two Scraps: Create a tapped Treasure token.",,1,2,,,https://www.planesculptors.net/upload/5734/16049/Scrap%20Polisher.jpg,Red,FALSE
+Scrapdragon Tyrant,MR01,5rrr,,Artifact Creature,Dragon,mythic,"This spell costs {1} less to cast for each artifact token you control.
+Flying, first strike
+Whenever Scrapdragon Tyrant enters or attacks, sacrifice another artifact. When you do, destroy target artifact or creature an opponent controls with equal or lesser mana value and put a +1/+1 counter on Scrapdragon Tyrant.",,6,5,,,https://www.planesculptors.net/upload/5734/16049/Scrapdragon%20Tyrant.jpg,Red,
+Scrapdragon Whelp,UR05,2rr,,Artifact Creature,Dragon,uncommon,"Clockwork 2 (This creature enters with 2 +1/+1 counters on it. Whenever it becomes tapped, remove one at end of turn.)
+Sacrifice another artifact: Move its counters onto Scrapdragon Whelp.
+Remove a counter from Scrapdragon Whelp: It gains flying until end of turn.",,1,0,,,https://www.planesculptors.net/upload/5734/16049/Scrapdragon%20Whelp.jpg,Red,
+Shocking Revelation,CR16,1r,,Sorcery,,common,"Shocking Revelation deals 3 damage to target creature or planeswalker.
+Exile the top card of your library. Until the end of your next turn, you may play that card.",,,,,,https://www.planesculptors.net/upload/5734/16049/Shocking%20Revelation.jpg,Red,
+Shrapnel Cannon,UR08,2r,,Artifact,,uncommon,"Whenever a nontoken creature you control dies, create a Scrap token. (It&#39;s an artifact with &quot;&quot;{1}, {t}, Sacrifice this artifact: Give target permanent another counter of each kind already there.&quot;&quot;)
+{t}, Sacrifice X Scraps: Shrapnel Cannon deals X damage to any target.",,,,,,https://www.planesculptors.net/upload/5734/16049/Shrapnel%20Cannon.jpg,Red,FALSE
+Spark Sower,CR01,r,,Artifact Creature,Ape Artificer,common,"When Spark Sower enters, create a 2/1 red Elemental artifact creature token with haste and &quot;&quot;At the beginning of your end step, sacrifice this creature.&quot;&quot;",,1,1,,,https://www.planesculptors.net/upload/5734/16049/Spark%20Sower.jpg,Red,
+Spellmad Infiltrator,UR07,4r,,Sorcery,,uncommon,"Create a red Warrior artifact creature token with menace and &quot;&quot;This creature&#39;s power and toughness are each equal to the number of instant and sorcery cards in your graveyard plus the number of instant and sorcery cards you own in exile.&quot;&quot;
+Cipher (Then you may exile this spell card encoded on a creature you control. Whenever that creature deals combat damage to a player, its controller may cast a copy of the encoded card without paying its mana cost.)",,,,,,https://www.planesculptors.net/upload/5734/16049/Spellmad%20Infiltrator.jpg,Red,
+Strike a Spark,CR13,1rr,,Instant,,common,"Strike a Spark deals 4 damage to target creature or planeswalker. If excess damage was dealt this way, create a 2/1 red Elemental artifact creature token with haste and &quot;&quot;At the beginning of your end step, sacrifice this creature.&quot;&quot;",,,,,,https://www.planesculptors.net/upload/5734/16049/Strike%20a%20Spark.jpg,Red,
+Structural Distortion,UR12,3r,,Sorcery,,uncommon,Exile target artifact or land. Structural Distortion deals 2 damage to that permanent’s controller.,"The plane of Namekkos normally runs like a well-oiled machine. Even so, glitches in the aether can have far-reaching consequences.",,,,,https://www.planesculptors.net/upload/5734/16049/Structural%20Distortion.jpg,Red,
+Stun Scorpion,CR08,3R,,Artifact Creature,Scorpion,common,"Clockwork 3 (This creature enters with 3 +1/+1 counters on it. Whenever it becomes tapped, remove one at end of turn.)
+Whenever you remove one or more counters from Stun Scorpion, it deals that much damage to any target.","It charges its claws in the desert sand, stunning its prey with a sharp shock.",0,0,,,https://www.planesculptors.net/upload/5734/16049/Stun%20Scorpion.jpg,Red,FALSE
+Thermite Reaction,UR11,2r,,Sorcery,,uncommon,"As an additional cost to cast this spell, sacrifice an artifact.
+Thermite Reaction deals 5 damage to any target.",,,,,,https://www.planesculptors.net/upload/5734/16049/Thermite%20Reaction.jpg,Red,
+Two-Headed Bull,CR09,3r,,Artifact Creature,Cattle,common,"Menace
+Whenever you cast your second spell each turn, Two-Headed Bull gets +2/+0 until end of turn.",A swipe from either head will leave stars in your eyes.,2,4,,,https://www.planesculptors.net/upload/5734/16049/Two-Headed%20Bull.jpg,Red,
+Warehouse Scavenger,CR05,2r,,Artifact Creature,Ape Pirate,common,"Haste
+{1}, {T}, Sacrifice an artifact: Exile the top two cards of your library. Choose one of them. Until the end of your next turn, you may play that card.",,1,1,,,https://www.planesculptors.net/upload/5734/16049/Warehouse%20Scavenger.jpg,Red,FALSE
+Will of the People,MR03,2r,,Sorcery,,mythic,"Until end of turn, you may play artifact lands and cast artifact spells from your graveyard.
+If an artifact card or token would be put into your graveyard from anywhere this turn, exile it instead.",&quot;&quot;No longer shall we submit to the mindless Kosmengeve or the heartless Artinans! We make our own destiny!&quot;&quot;,,,,,https://www.planesculptors.net/upload/5734/16049/Will%20of%20the%20People.jpg,Red,
+Accelerated Evolution,RG08,3gg,,Sorcery,,rare,"Double the number of each kind of counter on target artifact or creature.
+Cipher (Then you may exile this spell card encoded on a creature you control. Whenever that creature deals combat damage to a player, its controller may cast a copy of the encoded card without paying its mana cost.)",,,,,,https://www.planesculptors.net/upload/5734/16049/Accelerated%20Evolution.jpg,Green,
+Accelerated Refactor,UG11,3g,,Instant,,uncommon,"Choose target creature you control. If it has no counters on it, put two +1/+1 counters on it. Otherwise, give it two counters of each kind already on it. Then it fights target creature you don&#39;t control.",,,,,,https://www.planesculptors.net/upload/5734/16049/Accelerated%20Refactor.jpg,Green,
+Anima Overflowing,MG03,1g,,Artifact,,mythic,"Whenever you cast a creature spell, you may have target noncreature artifact become a copy of it until end of turn, except it&#39;s still an artifact and keeps its abilities.",Life flows through all things.,,,,,https://www.planesculptors.net/upload/5734/16049/Anima%20Overflowing.jpg,Green,
+Artinan Naturalist,UG01,1G,,Artifact Creature,Druid,uncommon,"Clockwork 3 (This creature enters with 3 +1/+1 counters on it. Whenever it becomes tapped, remove one at end of turn.)
+{T}: Add one mana of any color.",,0,0,,,https://www.planesculptors.net/upload/5734/16049/Artinan%20Naturalist.jpg,Green,FALSE
+Artinan Preservation,CG14,2g,,Instant,,common,"Target creature gets +3/+3 until end of turn.
+Surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)",Artinan naturalists aren&#39;t afraid to get a little hands-on when their specimens are threatened.,,,,,https://www.planesculptors.net/upload/5734/16049/Artinan%20Preservation.jpg,Green,
+Attendant Swarm,UG02,1g,,Artifact Creature,Insect,uncommon,"Whenever Attendant Swarm attacks, each player mills 1.
+When Attendant Swarm dies, return target land card from your graveyard to the battlefield tapped.
+Discard a land card: Return Attendant Swarm from your graveyard to your hand.",,2,2,,,https://www.planesculptors.net/upload/5734/16049/Attendant%20Swarm.jpg,Green,
+Awakened Ore,MG02,6g,,Artifact Creature,Beast,mythic,"Whenever Awakened Ore or another nontoken creature you control enters, each player mills 1, then you may return a land card from a graveyard to the battlefield.
+Whenever a land you control enters, create a 3/3 green Beast artifact creature token with trample.",,6,6,,,https://www.planesculptors.net/upload/5734/16049/Awakened%20Ore.jpg,Green,
+Boce-Nag Burrower,CG10,4g,,Artifact Creature,Wurm,common,"Vigilance
+When Boce-Nag Burrower enters, target creature gains vigilance and gets +X/+X until end of turn, where X is the number of creature cards in your graveyard.",,5,4,,,https://www.planesculptors.net/upload/5734/16049/Boce-Nag%20Burrower.jpg,Green,
+Boce-Nag Hydra,RG05,XGG,,Artifact Creature,Hydra,rare,"Clockwork X (This creature enters with X +1/+1 counters on it. Whenever it becomes tapped, remove one at end of turn.)
+Trample
+If damage would be dealt to Boce-Nag Hydra, instead tap it.",,0,0,,,https://www.planesculptors.net/upload/5734/16049/Boce-Nag%20Hydra.jpg,Green,FALSE
+Boce-Nag Overseer,RG04,4GG,,Artifact Creature,Treefolk,rare,"Ward {3}
+When Boce-Nag Overseer enters, destroy up to one target noncreature artifact and up to one target noncreature enchantment.",,7,7,,,https://www.planesculptors.net/upload/5734/16049/Boce-Nag%20Overseer.jpg,Green,FALSE
+Bonobo Troop,UG04,2g,,Artifact Creature,Ape,uncommon,"Clockwork X, where X is the number of other differently named artifacts you control. (This creature enters with X +1/+1 counters on it. Whenever it becomes tapped, remove one at end of turn.)
+Trample",,1,1,,,https://www.planesculptors.net/upload/5734/16049/Bonobo%20Troop.jpg,Green,
+Comm-Line Spinner,CG05,2g,,Artifact Creature,Spider,common,"Clockwork 1 (This creature enters with 1 +1/+1 counters on it. Whenever it becomes tapped, remove one at end of turn.)
+Reach
+Whenever Comm-Line Spinner blocks a creature with flying, put a +1/+1 counter on it.",,0,2,,,https://www.planesculptors.net/upload/5734/16049/Comm-Line%20Spinner.jpg,Green,
+Crushing Canopy,CG15,2g,,Instant,,common,"Choose one —
+• Destroy target creature with flying.
+• Destroy target enchantment.","On Namekkos, the flora is a kind of fauna too.",,,,,https://www.planesculptors.net/upload/5734/16049/Crushing%20Canopy.jpg,Green,
+Daunting Carapace,CG13,2g,,Enchantment,Aura,common,"Enchant creature
+Enchanted creature gets +1/+1.
+Enchanted creature can&#39;t be blocked by creatures with power 2 or less.",,,,,,https://www.planesculptors.net/upload/5734/16049/Daunting%20Carapace.jpg,Green,
+Druid of the Brush,CG08,3g,,Artifact Creature,Druid,common,"When Druid of the Brush enters, you may sacrifice an artifact. If you do, create two 1/1 green Insect artifact creature tokens.","“All life is valuable, from the largest treefolk to the smallest worms.”
+—Agnoe, Artinan warden",3,3,,,https://www.planesculptors.net/upload/5734/16049/Druid%20of%20the%20Brush.jpg,Green,
+Gear Rustlers,CG12,5g,,Artifact Creature,Ape Artificer,common,"When Gear Rustlers enters, mill three cards, then put a +1/+1 counter on Gear Rustlers for each artifact card in your graveyard.","The tools were clearly marked for disposal, but the apes couldn&#39;t read.",3,3,,,https://www.planesculptors.net/upload/5734/16049/Gear%20Rustlers.jpg,Green,
+Hibernating Ursatron,UG06,3g,,Artifact Creature,Bear,uncommon,"Trample
+Hibernating Ursatron enters tapped.
+As an additional cost to untap Hibernating Ursatron, remove two counters from among permanents you control.",,6,6,,,https://www.planesculptors.net/upload/5734/16049/Hibernating%20Ursatron.jpg,Green,FALSE
+"Itezoe, Clockwork Kirin",MG01,2gg,Legendary,Artifact Creature,Giraffe,mythic,"Clockwork 1
+Itezoe, Clockwork Kirin has all activated and triggered abilities of other permanents with counters on them.
+Whenever one or more counters are removed from a permanent you control, put a shield counter on another target permanent. This ability triggers only once each turn.",,4,4,,,https://www.planesculptors.net/upload/5734/16049/Itezoe%20Clockwork%20Kirin.jpg,Green,
+Knock-Down Brawl,RG07,5g,,Enchantment,,rare,"Flash
+When Knock-Down Brawl enters, target creature you control fights target creature you don&#39;t control.
+Whenever a creature you control wins a fight, return Knock-Down Brawl to your hand. (A creature wins a fight when it survives and the other creature doesn&#39;t.)",,,,,,https://www.planesculptors.net/upload/5734/16049/Knock-Down%20Brawl.jpg,Green,
+Lurk Below,CG06,1gg,,Sorcery,,common,"Create a 3/3 green Beast artifact creature token with trample.
+Whenever a creature you control with power 4 or greater dies, you may return Lurk Below from your graveyard to your hand.",,,,,,https://www.planesculptors.net/upload/5734/16049/Lurk%20Below.jpg,Green,
+Migrating Tumbleweed,CG02,1g,,Artifact Creature,Plant,common,"Clockwork 2 (This creature enters with 2 +1/+1 counters on it. Whenever it becomes tapped, remove one at end of turn.)
+Whenever Migrating Tumbleweed deals combat damage to a player, you may sacrifice it. If you do, search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",,0,0,,,https://www.planesculptors.net/upload/5734/16049/Migrating%20Tumbleweed.jpg,Green,
+Pack Hunter,UG08,4g,,Artifact Creature,Beast,uncommon,"Trample
+When Pack Hunter enters, create a 3/3 green Beast artifact creature token with trample.",It’s not the one you see that’s a threat.,3,3,,,https://www.planesculptors.net/upload/5734/16049/Pack%20Hunter.jpg,Green,
+Patient Naturalist,CG04,2g,,Artifact Creature,Scout,common,"{5}{G}: Choose target artifact. If it’s a creature, put a +1/+1 counter on it. Otherwise, put a charge counter on it.","“Verdant bloom can be coaxed out of all of nature’s creations.”
+—Agnoe, Artinan warden",3,3,,,https://www.planesculptors.net/upload/5734/16049/Patient%20Naturalist.jpg,Green,
+Rampaging Ursatron,UG07,4g,,Artifact Creature,Bear,uncommon,"When Rampaging Ursatron enters, choose one —
+• Destroy target noncreature artifact or noncreature enchantment.
+• Put two +1/+1 counters on Rampaging Ursatron.",,3,3,,,https://www.planesculptors.net/upload/5734/16049/Rampaging%20Ursatron.jpg,Green,FALSE
+Recycling Shepherd,UG09,5g,,Artifact Creature,Treefolk Druid,uncommon,"When Recycling Shepherd enters, create a 1/1 green Insect artifact creature token.
+Whenever another creature you control dies, if it had a counter on it, create a Scrap token. (It&#39;s an artifact with &quot;&quot;{1}, {t}, Sacrifice this artifact: Give target permanent another counter of each kind already there.&quot;&quot;)",,5,5,,,https://www.planesculptors.net/upload/5734/16049/Recycling%20Shepherd.jpg,Green,
+Reflective Carapace,UG10,3g,,Enchantment,Aura,uncommon,"Enchant creature
+Enchanted creature has ward {1}.
+If one or more +1/+1 counters would be removed from enchanted creature for the first time each turn, instead put a +1/+1 counter on it.",,,,,,https://www.planesculptors.net/upload/5734/16049/Reflective%20Carapace.jpg,Green,
+Return to Ore,CG16,G,,Instant,,common,Destroy target noncreature artifact. You gain life equal to its mana value.,"“You’ve reached the end of your life cycle, but be glad that your gears and pistons will drive life anew.”
+—Agnoe, Artinan warden",,,,,https://www.planesculptors.net/upload/5734/16049/Return%20to%20Ore.jpg,Green,FALSE
+Revitalizing Stroll,CG19,2g,,Sorcery,,common,"Mill three cards, then return a permanent card from your graveyard to your hand. You gain life equal to that card&#39;s mana value.",A welcome respite from the high-stakes conflict of Association academia.,,,,,https://www.planesculptors.net/upload/5734/16049/Revitalizing%20Stroll.jpg,Green,
+Roar of Boce-Nag,UG12,2gg,,Sorcery,,uncommon,"When you cast Roar of Boce-Nag, up to one target artifact you control.
+Until end of turn, creatures you control gain trample and “This creature gets +1/+1 for each counter on it.”",,,,,,https://www.planesculptors.net/upload/5734/16049/Roar%20of%20Boce-Nag.jpg,Green,
+Rust Weevils,UG05,2gg,,Artifact Creature,Insect,uncommon,"Clockwork 2 (This creature enters with 2 +1/+1 counters on it. Whenever it becomes tapped, remove one at end of turn.)
+Whenever you remove one or more counters from a permanent you control, create that many 1/1 green Insect artifact creature tokens.",,0,0,,,https://www.planesculptors.net/upload/5734/16049/Rust%20Weevils.jpg,Green,FALSE
+Scrap Reclamation,CG17,2g,,Sorcery,,common,"Whenever a land you control enters this turn, create a Scrap token. (It&#39;s an artifact with &quot;&quot;{1}, {t}, Sacrifice this artifact: Give target permanent another counter of each kind already there.&quot;&quot;)
+Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",,,,,,https://www.planesculptors.net/upload/5734/16049/Scrap%20Reclamation.jpg,Green,
+Scraphound,UG03,2g,,Artifact Creature,Dog,uncommon,"Whenever a creature dealt damage by Scraphound this turn dies, create a Scrap token. (It&#39;s an artifact with &quot;&quot;{1}, {t}, Sacrifice this artifact: Give target permanent another counter of each kind already there.&quot;&quot;)
+Sacrifice a Scrap: Scraphound gets +2/+2 until end of turn. Activate this ability only once each turn.",,3,2,,,https://www.planesculptors.net/upload/5734/16049/Scraphound.jpg,Green,FALSE
+Shepherd of the Wilds,CG07,3g,,Artifact Creature,Treefolk Druid,common,"Reach
+When Shepherd of the Wilds enters, if you had another artifact enter the battlefield under your control this turn, draw a card.",Every filigreed leaf and welded branch has known the shepherd’s touch.,3,5,,,https://www.planesculptors.net/upload/5734/16049/Shepherd%20of%20the%20Wilds.jpg,Green,
+Stampeding Thunderbeast,RG03,4g,,Artifact Creature,Dinosaur,rare,"Trample, vigilance
+Whenever Stampeding Thunderbeast attacks, you may sacrifice any number of noncreature artifacts. When you do, put that many +1/+1 counters on another target creature you control.",,6,5,,,https://www.planesculptors.net/upload/5734/16049/Stampeding%20Thunderbeast.jpg,Green,
+Swarming Carapace,RG06,4g,,Enchantment,Aura,rare,"Enchant creature
+At the beginning of each combat, until end of turn, enchanted creature gains your choice of hexproof, reach, trample, or vigilance, or gets +1/+1. Copy this ability for each other creature you control.
+At the beginning of your end step, create a 1/1 green Insect artifact creature token.",,,,,,https://www.planesculptors.net/upload/5734/16049/Swarming%20Carapace.jpg,Green,
+Symek Stationmaster,RG01,G,,Artifact Creature,Artificer,rare,"Ward {2}
+{T}: Add one mana of any color. Spend this mana only to cast an artifact spell or activate an ability of an artifact.",,1,2,,,https://www.planesculptors.net/upload/5734/16049/Symek%20Stationmaster.jpg,Green,FALSE
+Synak Scout,CG01,g,,Artifact Creature,Scout,common,"[Clockwork C]
+{1}{g}: Put a +1/+1 counter on Synak Scout. Activate only as a sorcery.",,1,1,,,https://www.planesculptors.net/upload/5734/16049/Synak%20Scout.jpg,Green,
+"Temmar, Apprentice Clockmaker",RG02,1GG,Legendary,Artifact Creature,Artificer,rare,"{G}, {T}, Sacrifice another artifact: You may put an artifact or creature card with mana value equal to 1 plus the sacrificed artifact&#39;s mana value from your hand onto the battlefield.",The world is putty in his hands.,1,3,,,https://www.planesculptors.net/upload/5734/16049/Temmar%20Apprentice%20Clockmaker.jpg,Green,FALSE
+Ticking Trufflehunter,CG09,2gg,,Artifact Creature,Boar,common,"Clockwork 4 (This creature enters with 4 +1/+1 counters on it. Whenever it becomes tapped, remove one at end of turn.)
+When Ticking Trufflehunter enters, create a Scrap token. (It&#39;s an artifact with &quot;&quot;{1}, {t}, Sacrifice this artifact: Give target permanent another counter of each kind already there.&quot;&quot;)",,0,0,,,https://www.planesculptors.net/upload/5734/16049/Ticking%20Trufflehunter.jpg,Green,
+Trilling Raptor,CG03,1g,,Artifact Creature,Dinosaur,common,"Whenever Trilling Raptor deals combat damage to a player, untap target artifact or land you control.",,3,1,,,https://www.planesculptors.net/upload/5734/16049/Trilling%20Raptor.jpg,Green,
+Wind-Up Blow,CG18,1g,,Sorcery,,common,"Choose target creature you control. If it has clockwork, put a +1/+1 counter on it. Then it fights target creature you don&#39;t control.",,,,,,https://www.planesculptors.net/upload/5734/16049/Wind-Up%20Blow.jpg,Green,FALSE
+Wind-Up Dreadmaw,CG11,4gg,,Artifact Creature,Dinosaur,common,"Clockwork 6 (This creature enters with 6 +1/+1 counters on it. Whenever it becomes tapped, remove one at end of turn.)
+Remove a counter from an artifact you control: Wind-Up Dreadmaw gains trample until end of turn.",,0,0,,,https://www.planesculptors.net/upload/5734/16049/Wind-Up%20Dreadmaw.jpg,Green,FALSE
+Archon of Unity,RZ01,5WWU,,Artifact Creature,Archon,rare,"Flying, vigilance
+Whenever a permanent deals damage to you, gain control of that permanent.",Peace and prosperity demand a unified world.,5,7,,,https://www.planesculptors.net/upload/5734/16049/Archon%20of%20Unity.jpg,Multicolour,FALSE
+Sage Owlin,UZ01,2wu,,Artifact Creature,Bird Advisor,uncommon,"Flying
+Whenever a creature you control enters, if you didn&#39;t cast it, draw a card. This ability triggers only once each turn.","&quot;&quot;Something is disturbing the flow of anima. If the Empire is behind this, our world may be doomed.&quot;&quot;",2,3,,,https://www.planesculptors.net/upload/5734/16049/Sage%20Owlin.jpg,Multicolour,
+"Venser, Prodigal Shaper",MZ01,3WU,Legendary,Planeswalker,Venser,mythic,"[+2]: Create a token that’s a copy of target creature you control, except it’s a 1/1 artifact.
+[0]: Target creature you control phases out. You may activate this ability any time you could cast an instant.
+[-7]: You get an emblem with “Whenever you cast a spell, return target spell or nonland permanent an opponent controls to its owner’s hand. Until the end of your next turn, you may cast a copy of it.”",,,3,,,https://www.planesculptors.net/upload/5734/16049/Venser%20Prodigal%20Shaper.jpg,Multicolour,FALSE
+Spell Pilfer,RZ02,UB,,Instant,,rare,"Look at target opponent&#39;s hand and exile an instant or sorcery card from it. You may cast that card for as long as it remains exiled, and you may spend mana as though it were mana of any type to cast that spell. Put it into its owner&#39;s hand as it resolves. If you don&#39;t exile a card this way, draw a card.",,,,Daarken,http://www.artofmtg.com/wp-content/uploads/2019/04/Davriels-Shadowfugue-War-of-the-Spark-Art.jpg,https://www.planesculptors.net/upload/5734/16049/Spell%20Pilfer.jpg,Multicolour,
+Terosev Marauders,UZ02,4ub,,Artifact Creature,Pirate,uncommon,"Clockwork 4 (This creature enters with 4 +1/+1 counters on it. Whenever it becomes tapped, remove one at end of turn.)
+{u}{b}, {t}: Any number of target players each mill a number of cards equal to Terosev Marauders&#39;s power. If four or more land cards are milled this way, you draw a card.",,0,2,,,https://www.planesculptors.net/upload/5734/16049/Terosev%20Marauders.jpg,Multicolour,
+Freelance Enforcers,RZ03,2Br,,Artifact Creature,Rogue,rare,"Lifelink
+If a spell or ability an opponent controls would cause that player to search their library, they may have you copy it. When they don’t, Freelance Enforcers deals damage to that player equal to the number of cards in their hand.",,4,3,,,https://www.planesculptors.net/upload/5734/16049/Freelance%20Enforcers.jpg,Multicolour,
+Morex Hedonist,UZ03,3br,,Artifact Creature,Rogue,uncommon,"First strike
+Whenever you sacrifice an artifact, choose up to one target permanent or player that hasn&#39;t been chosen this way this turn. Morex Hedonist deals X damage to that permanent or player, where X is one plus the mana value of the sacrificed permanent.",,5,4,,,https://www.planesculptors.net/upload/5734/16049/Morex%20Hedonist.jpg,Multicolour,
+Gensto Frontliners,UZ04,3rg,,Artifact Creature,Soldier,uncommon,"Gensto Frontliners can&#39;t be blocked by creatures with power 2 or less.
+Whenever Gensto Frontliners attacks, reveal the top card of your library. If it’s a land card, put it onto the battlefield tapped. Otherwise, create a tapped Treasure token and you may put that card into your graveyard.",,4,5,,,https://www.planesculptors.net/upload/5734/16049/Gensto%20Frontliners.jpg,Multicolour,
+"Luthan, Street Brawler",RZ04,2rg,Legendary,Artifact Creature,Warrior,rare,"Whenever Luthan, Street Brawler enters or attacks, it fights target creature an opponent controls.
+Whenever a creature you control wins a fight, put a +1/+1 counter on it. (A creature wins a fight when it survives and the other creature doesn&#39;t.)",,3,3,,,https://www.planesculptors.net/upload/5734/16049/Luthan%20Street%20Brawler.jpg,Multicolour,
+Boce-Nag Druid,UZ05,1gw,,Artifact Creature,Druid,uncommon,"Whenever Boce-Nag Druid attacks, put your choice of a +1/+1 or charge counter on each differently named artifact you control.","&quot;&quot;Kosmen&#39;s goals are reprehensible, but we have much to learn from its methods.&quot;&quot;",2,2,,,https://www.planesculptors.net/upload/5734/16049/Boce-Nag%20Druid.jpg,Multicolour,FALSE
+Copper Sequoia,RZ05,5gw,,Artifact Creature,Treefolk,rare,"Each differently named artifact you tap while casting this spell pays for {1}.
+Trample, vigilance
+Copper Sequoia&#39;s power and toughness are each equal to the number of differently named artifacts you control.",,*,*,,,https://www.planesculptors.net/upload/5734/16049/Copper%20Sequoia.jpg,Multicolour,FALSE
+Kosmengeve Recruiter,UZ06,2wb,,Artifact Creature,Soldier,uncommon,"Creature tokens you control get +1/+0.
+At the beginning of your end step, if two or more tokens left the battlefield this turn, create a 2/2 white Drone artifact creature token with vigilance.",,3,3,,,https://www.planesculptors.net/upload/5734/16049/Kosmengeve%20Recruiter.jpg,Multicolour,
+Monument Sculptor,RZ06,3wb,,Artifact Creature,Artificer,rare,"Artifacts you control have “Ward—Pay 2 life.” (Whenever one becomes the target of a spell or ability an opponent controls, counter it unless that player pays 2 life.)
+Whenever a legendary creature you control dies, you may exile it. If you do, create a token that’s a copy of that card, except it’s an artifact and loses all other card types. (It’s no longer legendary.)",,4,5,,,https://www.planesculptors.net/upload/5734/16049/Monument%20Sculptor.jpg,Multicolour,
+Quickthorn Drawer,RZ08,2bgg,,Artifact Creature,Treefolk Warrior,rare,"Quickthorn Drawer has indestructible unless it has damage marked on it equal to its toughness.
+Whenever Quickthorn Drawer deals combat damage, create that many Scrap tokens., except they&#39;re 1/1 Plant creatures in addition to their other types.",,3,6,,,https://www.planesculptors.net/upload/5734/16049/Quickthorn%20Drawer.jpg,Multicolour,
+Tersol Harvester,UZ08,3bg,,Artifact Creature,Beast,uncommon,"Clockwork 4 (This creature enters with 4 +1/+1 counters on it. Whenever it becomes tapped, remove one at end of turn.)
+Whenever you remove one or more counters from Tersol Harvester, return target permanent card from your graveyard to your hand if it has mana value less than Tersol Harvester&#39;s power.",,1,1,,,https://www.planesculptors.net/upload/5734/16049/Tersol%20Harvester.jpg,Multicolour,
+Artinan Warden,UZ10,2gu,,Artifact Creature,Artificer,uncommon,"Ward {2}
+If an artifact or creature would enter under your control with one or more counters on it, it enters with that many plus one of each of those kinds of counters instead.",,2,4,,,https://www.planesculptors.net/upload/5734/16049/Artinan%20Warden.jpg,Multicolour,
+Iterative Improvement,RZ10,guu,,Instant,,rare,"Copy target artifact or creature spell, then return it to its owner&#39;s hand. The permanent the copy becomes enters with your choice of an additional +1/+1 counter or charge counter on it.","“Nature’s designs are beauty of the highest order. Now let’s improve them.”
+—Stusur, Artinan chancellor",,,,,https://www.planesculptors.net/upload/5734/16049/Iterative%20Improvement.jpg,Multicolour,
+"Temmar, Ascendant Clockmaker",MZ02,2gu,Legendary,Planeswalker,Temmar,mythic,"[+1]: Sacrifice an artifact. Search your library for an artifact or creature card with mana value equal to 1 plus the sacrificed artifact’s mana value, put that card onto the battlefield, then shuffle.
+[-2]: Until the start of your next turn, counters can&#39;t be removed from permanents you control.
+[-5]: You get an emblem with &quot;&quot;Spells you cast cost {1} less for each artifact you control.&quot;&quot;",,,3,,,https://www.planesculptors.net/upload/5734/16049/Temmar%20Ascendant%20Clockmaker.jpg,Multicolour,
+Hissing Moloch,UZ07,3ur,,Artifact Creature,Lizard,uncommon,"Whenever you cast your second spell each turn, you may draw a card. If you do, discard a card. When you discard a nonland card this way, Hissing Moloch deals 2 damage to any target.",,4,4,,,https://www.planesculptors.net/upload/5734/16049/Hissing%20Moloch.jpg,Multicolour,
+"Naxidy, Anima Shaper",RZ07,2ur,Legendary,Artifact Creature,Wizard,rare,"Whenever you cast or copy an instant or sorcery spell, Naxidy, Anima Shaper gets +1/+1 until end of turn.
+Whenever you cast a spell with cipher, copy it. You may choose new targets for the copy.
+{u/b}{b/r}: When target creature you control leaves the battlefield this turn, if it had one or more cards encoded on it, return one of the encoded cards to its owner&#39;s hand.",,2,3,,,https://www.planesculptors.net/upload/5734/16049/Naxidy%20Anima%20Shaper.jpg,Multicolour,
+Furnace Stoker,RZ09,1rrw,,Artifact Creature,Elemental,rare,"Lifelink
+At the beginning of each combat, sacrifice any number of tokens. When you do, Furnace Stoker deals that much damage to target creature.
+When Furnace Stoker dies, create three Scrap tokens. (They&#39;re artifacts with &quot;&quot;{1}, {t}, Sacrifice this artifact: Give target permanent another counter of each kind already there.&quot;&quot;)",,4,3,,,https://www.planesculptors.net/upload/5734/16049/Furnace%20Stoker.jpg,Multicolour,
+Sonkoso Leaper,UZ09,1rw,,Artifact Creature,Cat,uncommon,"Clockwork 3 (This creature enters with 3 +1/+1 counters on it. Whenever it becomes tapped, remove one at end of turn.)
+Haste
+Whenever you remove one or more counters from among permanents you control, Sonkoso Leaper deals that much damage to any target.",,1,1,,,https://www.planesculptors.net/upload/5734/16049/Sonkoso%20Leaper.jpg,Multicolour,
+Insidious Cruelty,MZ03,3ubbr,,Sorcery,,mythic,"Target opponent discards any number of cards, then mills cards equal to seven minus the number of cards discarded this way. You may exile an artifact or creature card from that player’s graveyard and create a token that’s a copy of it. When you do, it deals damage equal to its mana value to target creature or planeswalker an opponent controls.
+Cipher",,,,,,https://www.planesculptors.net/upload/5734/16049/Insidious%20Cruelty.jpg,Multicolour,
+Fastidious Visitor,UA01,3,,Artifact Creature,Otter,uncommon,"When Fastidious Visitor enters or leaves the battlefield, choose target card in a graveyard not named Fastidious Visitor. Its owner puts it on the top or bottom of their library.","“At first it was just cleaning up litter. Now the damn thing is running off with measuring equipment and power tools!”
+—Akor, Synak station patrol",2,2,,,https://www.planesculptors.net/upload/5734/16049/Fastidious%20Visitor.jpg,Artifact,
+Field Upgrades,CA03,4,,Artifact,,common,"When Field Upgrades is put into a graveyard from the battlefield, you draw a card.
+Sacrifice Field Upgrades: Each artifact creature you control enters with an additional +1/+1 counter on it this turn. Each noncreature artifact you control enters with an additional charge counter on it this turn.",,,,,,https://www.planesculptors.net/upload/5734/16049/Field%20Upgrades.jpg,Artifact,
+Lumbering Brontodon,RA01,7,,Artifact Creature,Dinosaur,rare,"Trample
+When Lumbering Brontodon enters, sacrifice any number of other artifacts. Put a +1/+1 counter on Lumbering Brontodon for each permanent sacrificed this way.","“You were supposed to drag the supply drop back to base, not eat the damn thing!”
+—Akor, Synak station patrol",3,3,,,https://www.planesculptors.net/upload/5734/16049/Lumbering%20Brontodon.jpg,Artifact,
+Nest of Automata,RA02,5,,Artifact,,rare,"{1}, {T}, Tap two creatures you control with the same name: Create a token that&#39;s a copy of one of those creatures.",,,,,,https://www.planesculptors.net/upload/5734/16049/Nest%20of%20Automata.jpg,Artifact,FALSE
+Perpetual Motion Machine,UA03,3,,Artifact,,uncommon,"Clockwork 3 (This artifact enters with 3 charge counters on it. Whenever it becomes tapped, remove one at end of turn.)
+{t}: Add one mana of any color. Activate only if Perpetual Motion Machine has a counter on it.
+Whenever you remove one or more counters from a permanent you control, create that many Scrap tokens. This ability triggers only once each turn.",,,,,,https://www.planesculptors.net/upload/5734/16049/Perpetual%20Motion%20Machine.jpg,Artifact,FALSE
+Powered Gauntlets,RA03,4,,Artifact,Equipment,rare,"Clockwork 4 (This artifact enters with 4 charge counters on it. Whenever it becomes tapped, remove one at end of turn.)
+Equipped creature gets +1/+1 for each charge counter on Powered Gauntlets and has first strike.
+Equip {t} ({t}: Attach to target creature you control. Equip only as a sorcery.)",,,,,,https://www.planesculptors.net/upload/5734/16049/Powered%20Gauntlets.jpg,Artifact,FALSE
+Refabricator Plant,MA02,4,,Artifact,,mythic,"Whenever an artifact or creature you control is put into a graveyard from the battlefield, create a Scrap token.
+{t}, Sacrifice six Scraps: Look at the top six cards of your library. You may cast a spell from among them without paying its mana cost. Put the rest on the bottom of your library in a random order. If you don&#39;t cast a spell this way, draw a card.",,,,,,https://www.planesculptors.net/upload/5734/16049/Refabricator%20Plant.jpg,Artifact,FALSE
+Resonant Field Generator,RA04,XX,,Artifact,,rare,"Clockwork X (This artifact enters with X charge counters on it. Whenever it becomes tapped, remove one at end of turn.)
+{1}, {T}: Put a +1/+1 counter on each creature you control. Activate only if Resonant Field Generator has a counter on it.",,,,,,https://www.planesculptors.net/upload/5734/16049/Resonant%20Field%20Generator.jpg,Artifact,FALSE
+Ring of Aqming,UA07,2,,Artifact,Equipment,uncommon,"Clockwork 3 (This artifact enters with 3 charge counters on it. Whenever it becomes tapped, remove one at end of turn.)
+Equipped creature gets +1/+1 and has menace.
+{4}{b}, {t}: Until the start of your next turn, equipped creature gains &quot;&quot;Whenever a creature an opponent controls dies, if it was dealt combat damage by this creature this turn, return it to the battlefield under your control tapped.&quot;&quot; Activate only as a sorcery and only if Ring of Aqming has a counter on it.
+Equip {1}",,,,,,https://www.planesculptors.net/upload/5734/16049/Ring%20of%20Aqming.jpg,Artifact,
+Ring of Boce-Nag,UA09,2,,Artifact,Equipment,uncommon,"Clockwork 3 (This artifact enters with 3 charge counters on it. Whenever it becomes tapped, remove one at end of turn.)
+Equipped creature gets +1/+1 and has trample.
+{4}{g}, {t}: Until the start of your next turn, double the power and toughness of equipped creature. Activate only as a sorcery and only if Ring of Boce-Nag has a counter on it.
+Equip {1}",,,,,,https://www.planesculptors.net/upload/5734/16049/Ring%20of%20Boce-Nag.jpg,Artifact,
+Ring of Fulop,UA06,2,,Artifact,Equipment,uncommon,"Clockwork 3 (This artifact enters with 3 charge counters on it. Whenever it becomes tapped, remove one at end of turn.)
+Equipped creature gets +1/+1 and has ward {1}.
+{4}{u}, {t}: Until the start of your next turn, equipped creature gains flying and hexproof. Activate only as a sorcery and only if Ring of Fulop has a counter on it.
+Equip {1}",,,,,,https://www.planesculptors.net/upload/5734/16049/Ring%20of%20Fulop.jpg,Artifact,
+Ring of Kapare,UA05,2,,Artifact,Equipment,uncommon,"Clockwork 3 (This artifact enters with 3 charge counters on it. Whenever it becomes tapped, remove one at end of turn.)
+Equipped creature gets +1/+1 and has vigilance.
+{4}{w}, {t}: Until the start of your next turn, prevent all damage to equipped creature. When you prevent damage this way, it deals that much damage to any target. Activate only as a sorcery and only if Ring of Kapare has a counter on it.
+Equip {1}",,,,,,https://www.planesculptors.net/upload/5734/16049/Ring%20of%20Kapare.jpg,Artifact,
+Ring of Sola,UA08,2,,Artifact,Equipment,uncommon,"Clockwork 3 (This artifact enters with 3 charge counters on it. Whenever it becomes tapped, remove one at end of turn.)
+Equipped creature gets +1/+1 and has haste.
+{4}{r}, {t}: Until the start of your next turn, if equipped creature would deal damage to an opponent or a permanent an opponent controls, it deals twice that much damage instead. Activate only as a sorcery and only if Ring of Sola has a counter on it.
+Equip {1}",,,,,,https://www.planesculptors.net/upload/5734/16049/Ring%20of%20Sola.jpg,Artifact,
+Salvage Mite,CA01,3,,Artifact Creature,Mite,common,"When Salvage Mite enters, put a +1/+1 counter on target creature.
+When Salvage Mite dies, create a Scrap token. (It&#39;s an artifact with &quot;&quot;{1}, {t}, Sacrifice this artifact: Give target permanent another counter of each kind already there.&quot;&quot;)",,1,1,,,https://www.planesculptors.net/upload/5734/16049/Salvage%20Mite.jpg,Artifact,FALSE
+Soul of Namekkos,MA01,6,,Artifact Creature,Avatar,mythic,"Ward {6}
+{6}:  Until end of turn, each nontoken artifact you control becomes an artifact creature with power and toughness each equal to its mana value and gains hexproof.
+{6}, Exile Soul of Namekkos from your graveyard:  Until end of turn, each nontoken artifact you control becomes an artifact creature with power and toughness each equal to its mana value and gains hexproof.",,6,6,,,https://www.planesculptors.net/upload/5734/16049/Soul%20of%20Namekkos.jpg,Artifact,
+Specimen Journal,UA04,2,,Artifact,,uncommon,"Clockwork 1 (This artifact enters with 1 charge counters on it. Whenever it becomes tapped, remove one at end of turn.)
+Whenever a creature you control enters, note one of its creature types that you haven’t noted for Specimen Journal. If you do, put a charge counter on Specimen Journal.
+{1}, {t}: Draw a card. Activate only if Specimen Journal has a counter on it.",,,,,,https://www.planesculptors.net/upload/5734/16049/Specimen%20Journal.jpg,Artifact,FALSE
+Spring-Loaded Key,CA04,2,,Artifact,,common,"Clockwork 3 (This artifact enters with 3 charge counters on it. Whenever it becomes tapped, remove one at end of turn.)
+{1}, {t}: Untap another target artifact. Give it another counter of each kind already there. Activate only as a sorcery and only if Spring-Loaded Key has a counter on it.",,,,,,https://www.planesculptors.net/upload/5734/16049/Spring-Loaded%20Key.jpg,Artifact,FALSE
+Station Guardian,CA02,6,,Artifact Creature,Beast,common,"Vigilance
+When Station Guardian enters, you may return another target artifact you control to its owner&#39;s hand.","“We trained some of the local wildlife to guard the research station. Now the damned things aren’t letting the researchers back in either!”
+—Akor, Synak station patrol",4,5,,,https://www.planesculptors.net/upload/5734/16049/Station%20Guardian.jpg,Artifact,
+Territorial Gorilla,UA02,5,,Artifact Creature,Ape,uncommon,"Clockwork 4 (This creature enters with 4 +1/+1 counters on it. Whenever it becomes tapped, remove one at end of turn.)
+Trample
+Whenever you cast a noncreature spell, put a +1/+1 counter on Territorial Gorilla and untap it.",,0,0,,,https://www.planesculptors.net/upload/5734/16049/Territorial%20Gorilla.jpg,Artifact,
+Abandoned Scrapyard,CL02,,,Land,,common,"When Abandoned Scrapyard enters, create a Scrap token. (It&#39;s an artifact with &quot;&quot;{1}, {t}, Sacrifice this artifact: Give target permanent another counter of each kind already there.&quot;&quot;)
+{t}: Add {c}.
+{1}, {T}: Add one mana of any color.",,,,,,https://www.planesculptors.net/upload/5734/16049/Abandoned%20Scrapyard.jpg,Land multicolour,
+Cavernous Factory,RL06,,,Land,,rare,"{T}: Add {c}.
+{T}: Add one mana of any color. Spend this mana only to cast a noncreature artifact spell or activate an ability of a noncreature artifact. That spell or ability can&#39;t be countered.",,,,,,https://www.planesculptors.net/upload/5734/16049/Cavernous%20Factory.jpg,Land multicolour,FALSE
+Combat Arena,RL04,,,Land,Swamp,rare,"As Combat Arena enters, you may reveal a Warrior card from your hand. If you don&#39;t, Combat Arena enters tapped.
+{T}: Add {r} or {w}. Combat Arena deals 1 damage to you.","A Morex will never turn down a good fight . . . or bad one, for that matter.",,,,,https://www.planesculptors.net/upload/5734/16049/Combat%20Arena.jpg,Land multicolour,
+Configurable Landscape,CL01,,,Land,,common,"{t}: Add {c}.
+{2}, {t}, Sacrifice Configurable Landscape: Search your library for a land card and reveal it. If it&#39;s basic, you may put it onto the battlefield tapped. Otherwise, put it into your hand. Then shuffle.",,,,,,https://www.planesculptors.net/upload/5734/16049/Configurable%20Landscape.jpg,Land (colourless),
+Gensto Mines,UL01,,,Land,,uncommon,"{T}: Add {c}.
+{3}, {T}, Sacrifice Gensto Mines: Target artifact you control gains indestructible until end of turn. Tap it.",The Gensto Mountains are the home of the finest metal ore on Namekkos. Mining space is viciously fought over.,,,,,https://www.planesculptors.net/upload/5734/16049/Gensto%20Mines.jpg,Land,FALSE
+Murmuring Bosk,RL01,,,Land,Forest,rare,"As Murmuring Bosk enters, you may reveal a Treefolk card from your hand. If you don&#39;t, Murmuring Bosk enters tapped.
+{T}: Add {W} or {B}. Murmuring Bosk deals 1 damage to you.","The flora of Namekkos are as mechanical as the fauna, but just tend to move at a slower pace.",,,,,https://www.planesculptors.net/upload/5734/16049/Murmuring%20Bosk.jpg,Land multicolour,
+Polytechnic Institute,RL03,,,Land,Island,rare,"As Polytechnic Institute enters, you may reveal an Artificer card from your hand. If you don&#39;t, Polytechnic Institute enters tapped.
+{T}: Add {b} or {g}. Polytechnic Institute deals 1 damage to you.",Where the finest minds hone the jewel of Artinan science.,,,,,https://www.planesculptors.net/upload/5734/16049/Polytechnic%20Institute.jpg,Land multicolour,
+Summit Hot Spring,RL05,,,Land,Mountain,rare,"As Summit Hot Spring enters, you may reveal an Ape card from your hand. If you don&#39;t, Summit Hot Spring enters tapped.
+{T}: Add {g} or {u}. Summit Hot Spring deals 1 damage to you.",Take a refreshing dip in the warm oil to lubricate your joints.,,,,,https://www.planesculptors.net/upload/5734/16049/Summit%20Hot%20Spring.jpg,Land multicolour,
+Thundering Grounds,RL02,,,Land,Plains,rare,"As Thundering Grounds enters, you may reveal a Dinosaur card from your hand. If you don&#39;t, Thundering Grounds enters tapped.
+{T}: Add {u} or {r}. Thundering Grounds deals 1 damage to you.",The petty territory squabbles between Kosmen and Artina mean nothing to the true rulers of the plains.,,,,,https://www.planesculptors.net/upload/5734/16049/Thundering%20Grounds.jpg,Land multicolour,
+Insect,,,Token,Artifact Creature,Insect,token,,,1,1,,https://legacytoys.com/cdn/shop/files/hexbug-hexbug-micro-ant-assorted-colors-409-6389-legacy-toys-2.jpg,https://www.planesculptors.net/upload/5734/16049/Insect.jpg,token Green,
+Elemental,,,Token,Artifact Creature,Elemental,token,"Haste
+At the beginning of your end step, sacrifice this creature.",,2,1,,,https://www.planesculptors.net/upload/5734/16049/Elemental.jpg,token Red,
+Drone,,,Token,Artifact Creature,Drone,token,Vigilance,,2,2,,,https://www.planesculptors.net/upload/5734/16049/Drone.jpg,token White,
+Beast,,,Token,Artifact Creature,Beast,token,Trample,,3,3,,,https://www.planesculptors.net/upload/5734/16049/Beast.jpg,token Green,
+Thopter,,,Token,Artifact Creature,Thopter,token,Flying,,1,1,,,https://www.planesculptors.net/upload/5734/16049/Thopter.jpg,token White,
+"Temmar, Ascendant Clockmaker",,,,Emblem,,token,Spells you cast cost {1} less for each artifact you control.,,,,,,https://64.media.tumblr.com/a85d7481e03486cdfd7a3b85cada57a0/f753a610fdcb8d13-9b/s400x600/8f0ac0ab6bae9d19ffcf69793030020b6a2a0c08.jpg,token Colourless,
+"Venser, Prodigal Shaper",,,,Emblem,,token,"Whenever you cast a spell, return target spell or nonland permanent an opponent controls to its owner&#39;s hand. Until the end of your next turn, you may cast a copy of it.",,,,,,https://64.media.tumblr.com/223bd400470aa617bbc5953c92167ee9/f753a610fdcb8d13-2d/s400x600/b8a95d11ae22fc8e71cdffa00faf4da413400238.jpg,token Colourless,
+Warrior,,,Token,Artifact Creature,Warrior,token,"Menace
+This creature’s power and toughness are each equal to the number of instant and sorcery cards in your graveyard plus the number of instant and sorcery cards you own in exile.",,*,*,,,https://www.planesculptors.net/upload/5734/16049/Warrior.jpg,token Red,
+Scrap,,,Token,Artifact,Scrap,token,"{1}, {t}, Sacrifice this artifact: Give target permanent another counter of each kind already there.",,,,,,https://www.planesculptors.net/upload/5734/16881/Scrap.jpg,token Artifact,
+Treasure,,,Token,Artifact,Treasure,token,"{T}, Sacrifice this artifact: Add one mana of any color.",,,,,,https://www.planesculptors.net/upload/5734/16881/Treasure.jpg,token Artifact,
+Copy,,,Token,,,token,,,,,,,https://www.planesculptors.net/upload/5734/16881/Copy.jpg,token Colourless,
+Skeleton,,,Token,Artifact Creature,Skeleton,token,,,1,1,,,https://www.planesculptors.net/upload/5734/16049/Skeleton.jpg,token Black,

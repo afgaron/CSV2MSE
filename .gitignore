@@ -163,6 +163,5 @@ cython_debug/
 *.mse-set
 *.mse-set.bak
 *.zip
-*.csv
 *.xlsx
 *.exe
