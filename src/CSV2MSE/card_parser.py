@@ -6,15 +6,17 @@ def fix_card_type(card: dict[str, str], column_mapping: dict[str, str]) -> None:
     """
     Combine the card type and supertype into one string.
     """
-    if card.get(column_mapping.get("card_type")):
-        super_type = card.get(column_mapping.get("super_type"), "")
-        card_type = card.get(column_mapping.get("card_type"), "")
-        card[column_mapping.get("super_type")] = f"{super_type} {card_type}".strip()
+    if card.get(column_mapping.get("card_type", "")):
+        super_type = card.get(column_mapping.get("super_type", ""), "")
+        card_type = card.get(column_mapping.get("card_type", ""), "")
+        card[column_mapping.get("super_type", "")] = f"{super_type} {card_type}".strip()
 
-    if card.get(column_mapping.get("card_type_2")):
-        super_type = card.get(column_mapping.get("super_type_2"), "")
-        card_type = card.get(column_mapping.get("card_type_2"), "")
-        card[column_mapping.get("super_type_2")] = f"{super_type} {card_type}".strip()
+    if card.get(column_mapping.get("card_type_2", "")):
+        super_type = card.get(column_mapping.get("super_type_2", ""), "")
+        card_type = card.get(column_mapping.get("card_type_2", ""), "")
+        card[column_mapping.get("super_type_2", "")] = (
+            f"{super_type} {card_type}".strip()
+        )
 
 
 def fix_stylesheet(card: dict[str, str], column_mapping: dict[str, str]) -> None:
@@ -23,27 +25,28 @@ def fix_stylesheet(card: dict[str, str], column_mapping: dict[str, str]) -> None
     two-faced cards (e.g. DFCs, adventures) and tokens.
     """
     # Uses `or` instead of second parameter to `get` to replace empty string as well
-    if "planeswalker" in card.get(column_mapping.get("super_type"), "").lower():
-        card[column_mapping.get("stylesheet")] = (
-            card.get(column_mapping.get("stylesheet")) or "m15-mainframe-planeswalker"
+    if "planeswalker" in card.get(column_mapping.get("super_type", ""), "").lower():
+        card[column_mapping.get("stylesheet", "")] = (
+            card.get(column_mapping.get("stylesheet", ""))
+            or "m15-mainframe-planeswalker"
         )
 
-    if "battle" in card.get(column_mapping.get("super_type"), "").lower():
-        card[column_mapping.get("stylesheet")] = (
-            card.get(column_mapping.get("stylesheet")) or "m15-battle"
+    if "battle" in card.get(column_mapping.get("super_type", ""), "").lower():
+        card[column_mapping.get("stylesheet", "")] = (
+            card.get(column_mapping.get("stylesheet", "")) or "m15-battle"
         )
 
     if (
-        "token" in card.get(column_mapping.get("super_type"), "").lower()
-        or "emblem" in card.get(column_mapping.get("super_type"), "").lower()
+        "token" in card.get(column_mapping.get("super_type", ""), "").lower()
+        or "emblem" in card.get(column_mapping.get("super_type", ""), "").lower()
     ):
-        card[column_mapping.get("stylesheet")] = (
-            card.get(column_mapping.get("stylesheet")) or "m15-mainframe-tokens"
+        card[column_mapping.get("stylesheet", "")] = (
+            card.get(column_mapping.get("stylesheet", "")) or "m15-mainframe-tokens"
         )
 
-    if card.get(column_mapping.get("name_2")):
-        card[column_mapping.get("stylesheet")] = (
-            card.get(column_mapping.get("stylesheet")) or "m15-mainframe-dfc"
+    if card.get(column_mapping.get("name_2", "")):
+        card[column_mapping.get("stylesheet", "")] = (
+            card.get(column_mapping.get("stylesheet", "")) or "m15-mainframe-dfc"
         )
 
 
@@ -59,13 +62,13 @@ def fix_planeswalker_rule_text(
         "level_1_text_2", "level_1_text_2"
     )
 
-    super_type = card.get(column_mapping.get("super_type"), "").lower()
+    super_type = card.get(column_mapping.get("super_type", ""), "").lower()
     if "planeswalker" in super_type:
-        card["level_1_text"] = card.pop(column_mapping.get("rule_text"), "")
+        card["level_1_text"] = card.pop(column_mapping.get("rule_text", ""), "")
 
-    super_type_2 = card.get(column_mapping.get("super_type_2"), "").lower()
+    super_type_2 = card.get(column_mapping.get("super_type_2", ""), "").lower()
     if "planeswalker" in super_type_2:
-        card["level_1_text_2"] = card.pop(column_mapping.get("rule_text_2"), "")
+        card["level_1_text_2"] = card.pop(column_mapping.get("rule_text_2", ""), "")
 
 
 def needs_power_toughness_loyalty(
@@ -77,33 +80,38 @@ def needs_power_toughness_loyalty(
     has_col = (
         (
             col == "power"
-            and "creature" in card.get(column_mapping.get("super_type"), "").lower()
+            and "creature" in card.get(column_mapping.get("super_type", ""), "").lower()
         )
         or (
             col == "power_2"
-            and "creature" in card.get(column_mapping.get("super_type_2"), "").lower()
+            and "creature"
+            in card.get(column_mapping.get("super_type_2", ""), "").lower()
         )
         or (
             col == "toughness"
-            and "creature" in card.get(column_mapping.get("super_type"), "").lower()
+            and "creature" in card.get(column_mapping.get("super_type", ""), "").lower()
         )
         or (
             col == "toughness_2"
-            and "creature" in card.get(column_mapping.get("super_type_2"), "").lower()
+            and "creature"
+            in card.get(column_mapping.get("super_type_2", ""), "").lower()
         )
         or (
             col == "loyalty"
             and (
-                "planeswalker" in card.get(column_mapping.get("super_type"), "").lower()
-                or "battle" in card.get(column_mapping.get("super_type"), "").lower()
+                "planeswalker"
+                in card.get(column_mapping.get("super_type", ""), "").lower()
+                or "battle"
+                in card.get(column_mapping.get("super_type", ""), "").lower()
             )
         )
         or (
             col == "loyalty_2"
             and (
                 "planeswalker"
-                in card.get(column_mapping.get("super_type_2"), "").lower()
-                or "battle" in card.get(column_mapping.get("super_type_2"), "").lower()
+                in card.get(column_mapping.get("super_type_2", ""), "").lower()
+                or "battle"
+                in card.get(column_mapping.get("super_type_2", ""), "").lower()
             )
         )
     )

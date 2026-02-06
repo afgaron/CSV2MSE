@@ -8,27 +8,29 @@ from typing import Iterable
 import card_parser
 
 
-def read_config_file(file: str) -> tuple[dict[str, str], dict[str, str]]:
+def read_config_file() -> tuple[dict[str, str], dict[str, str]]:
     """
     Read the configuration details given in the provided config file. Returns two
     dictionaries: one with metadata about the set, and one with mappings between
     the CSV file and the canonical MSE field names.
     """
-    if not os.path.exists(file):
-        raise FileNotFoundError("Can't find metadata.cfg in working directory")
+    print("Select metadata config file:")
+    filename = fd.askopenfilename()
 
     config = configparser.ConfigParser()
-    config.read(file, encoding="utf8")
+    config.read(filename, encoding="utf8")
 
     metadata = {
-        key: config["set_info"].get(key)
+        key: config["set_info"].get(key, "")
         for key in config["set_info"]
         if config["set_info"].get(key)
     }
 
     metadata["title"] = metadata.get("title", "untitled")
 
-    columns = {key: config["card"].get(key).lower() or key for key in config["card"]}
+    columns = {
+        key: config["card"].get(key, "").lower() or key for key in config["card"]
+    }
 
     return metadata, columns
 
@@ -44,7 +46,7 @@ def create_set_dir(metadata: dict[str, str]) -> str:
     if os.path.exists(set_dir):
         overwrite = ""
         while overwrite not in ["y", "n"]:
-            overwrite = input("Overwrite existing folder? Y/N: ").lower()
+            overwrite = input("Overwrite existing set file? Y/N: ").lower()
         if overwrite == "y":
             try:
                 os.remove(set_dir)
@@ -52,7 +54,7 @@ def create_set_dir(metadata: dict[str, str]) -> str:
                 shutil.rmtree(set_dir)
         else:
             print("Aborting.")
-            return
+            return ""
 
     os.mkdir(set_dir)
 
@@ -72,6 +74,7 @@ def read_csv() -> list[dict[str, str]]:
     Prompt the user to select a CSV file, then import each line as a dictionary
     mapping the row's value to the column name. Returns list of cards.
     """
+    print("Select csv file:")
     filename = fd.askopenfilename()
 
     header, body = [], []
@@ -100,7 +103,7 @@ def process_csv(
         for ix, card in enumerate(cards):
             # Check for duplicate card names
             filename = (
-                card_parser.fix_file_name(card.get(column_mapping["name"]))
+                card_parser.fix_file_name(card.get(column_mapping["name"], ""))
                 or f"untitled {ix}"
             )
             if os.path.exists(f"{set_dir}/card {filename}"):
@@ -125,18 +128,18 @@ def process_csv(
                     if "card_type" in col:
                         continue
                     elif "rarity" in col:
-                        val = card_parser.fix_rarity(card.get(column_mapping[col]))
+                        val = card_parser.fix_rarity(card.get(column_mapping[col], ""))
                     elif "text" in col and card.get(column_mapping[col]):
                         val = card_parser.fix_multiline_text(
-                            card.get(column_mapping[col])
+                            card.get(column_mapping[col], "")
                         )
                         val = card_parser.fix_symbols(val)
                         card_name = card.get(
-                            column_mapping[f"name{'_2' if '2' in col else ''}"]
+                            column_mapping[f"name{'_2' if '2' in col else ''}"], ""
                         )
                         val = card_parser.fix_name_in_text(val, card_name)
                     elif "name" in col:
-                        val = card_parser.fix_symbols(card.get(column_mapping[col]))
+                        val = card_parser.fix_symbols(card.get(column_mapping[col], ""))
                         val = val.replace("\n", " ")
                     elif "stylesheet" in col and not card.get(column_mapping[col]):
                         continue
@@ -146,9 +149,13 @@ def process_csv(
                         col, card, column_mapping
                     ):
                         continue
+                    elif "cost" in col:
+                        val = card.get(column_mapping[col], "").upper()
                     else:
                         val = card.get(column_mapping[col], "")
-                    card_file.write(f"\t{col}: {val}\n")
+                    # Only write fields that have content to avoid errors
+                    if val:
+                        card_file.write(f"\t{col}: {val}\n")
 
                 # Add time the card was written
                 now = card_parser.get_current_timestamp()

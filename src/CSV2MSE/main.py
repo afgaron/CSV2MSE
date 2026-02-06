@@ -2,8 +2,7 @@ import card_importer
 
 if __name__ == "__main__":
     try:
-        config_file = "metadata.cfg"
-        metadata, columns = card_importer.read_config_file(config_file)
+        metadata, columns = card_importer.read_config_file()
         if set_dir := card_importer.create_set_dir(metadata):
             card_list = card_importer.read_csv()
             card_importer.process_csv(set_dir, columns, card_list)

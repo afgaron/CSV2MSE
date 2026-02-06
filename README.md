@@ -1,7 +1,7 @@
 # CSV2MSE
 
 CSV2MSE is a generic CSV to MSE importer that can convert (most) CSV files
-into `.mse-set` files. Download it here: https://bit.ly/CSV2MSE_1_1
+into `.mse-set` files. Download it here: https://bit.ly/CSV2MSE_1_2
 
 ## Usage
 
@@ -23,10 +23,10 @@ For any rows in the `card` section that aren't filled in, the importer will assu
 your CSV uses the same name for the matching column. Any columns in your CSV that aren't
 listed in the config file will just be skipped.
 
-Once the config file is filled in, you can run the executable file. (Make sure it's in
-the same folder as the config file!) A pop-up will appear prompting you to select the
-CSV you want to import. Assuming there are no errors, it will run for a few seconds and
-then exit, creating the `.mse-set` file in the same folder.
+Once the config file is filled in, you can run the executable file. A pop-up will appear
+prompting you to first select the config file and then the CSV you want to import.
+Assuming there are no errors, it will run for a few seconds and then exit, creating the
+`.mse-set` file in the same folder you ran the executable from.
 
 ## Advanced
 

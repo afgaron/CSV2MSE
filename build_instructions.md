@@ -1,0 +1,1 @@
+python -m PyInstaller --noconfirm --onefile --console --name "CSV2MSE" --add-data "C:\Users\Owner\Documents\CSV2MSE\src\CSV2MSE\card_importer.py;." --add-data "C:\Users\Owner\Documents\CSV2MSE\src\CSV2MSE\card_parser.py;." "C:\Users\Owner\Documents\CSV2MSE\src\CSV2MSE\main.py" --hidden-import configparser --hidden-import tkinter.filedialog --hidden-import html
